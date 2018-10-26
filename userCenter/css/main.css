@@ -1,0 +1,13 @@
+@import url(../../libs/public.css);
+@import url(../../index/css/topBar.css);
+@import url(../../index/css/search.css);
+@import url(../../index/css/nav.css);
+@import url(../../index/css/footer.css);
+@import url(../../index/css/footerBar.css);
+
+/* 页面宽度1200 */
+.w1200{width: 1200px;}
+/* a标签滑过颜色 */
+a:hover{color:red;text-decoration:underline;}
+
+section#display{width: 800px;height: 400px;position: fixed;left: 0;right: 0;top: 0;bottom: 0;margin: auto;background: #abc;z-index: 1;color: #fff;text-align: center;line-height: 400px;font-size: 50px;opacity: .7;display: none;}

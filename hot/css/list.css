@@ -1,0 +1,4 @@
+main{background: #87e5ff;position: relative;}
+
+main div.bg{background: url(../images/bannerbg.jpg) no-repeat center;height: 535px;}
+main div.bg img{display: block;margin: 0 auto;height: 535px;}

@@ -1,0 +1,88 @@
+main {
+  position: relative; }
+
+#floor-1 {
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 100; }
+  #floor-1 .book-class {
+    width: 200px; }
+    #floor-1 .book-class ul {
+      border: 1px solid #e00;
+      border-top: 0; }
+      #floor-1 .book-class ul li {
+        padding: 8px;
+        border: 2px solid #fff;
+        border-right: 0;
+        border-left-width: 1px; }
+        #floor-1 .book-class ul li h3 {
+          font: 16px/24px "";
+          color: #e00;
+          margin-bottom: 8px; }
+          #floor-1 .book-class ul li h3 a {
+            color: #e00; }
+        #floor-1 .book-class ul li p {
+          border-bottom: 1px solid #e00; }
+          #floor-1 .book-class ul li p a {
+            line-height: 24px;
+            margin-right: 12px;
+            display: inline-block; }
+      #floor-1 .book-class ul li.te {
+        border-color: #e00;
+        position: relative; }
+        #floor-1 .book-class ul li.te p {
+          border-color: #fff; }
+      #floor-1 .book-class ul li.te:after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 3px;
+        background: #fff;
+        right: -2px;
+        top: 0;
+        z-index: 10; }
+      #floor-1 .book-class ul li:last-child {
+        padding: 1px 10px; }
+  #floor-1 .second {
+    position: absolute;
+    left: 200px;
+    z-index: 9; }
+    #floor-1 .second ul {
+      position: absolute;
+      background: #fff;
+      display: none;
+      border: 2px solid #e00;
+      left: -1px;
+      width: 710px;
+      padding: 10px 32px 10px 18px; }
+      #floor-1 .second ul li {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #f2f2f2;
+        padding: 10px 0;
+        line-height: 24px; }
+        #floor-1 .second ul li p {
+          width: 600px; }
+        #floor-1 .second ul li a {
+          font-size: 12px;
+          text-decoration: none;
+          white-space: nowrap; }
+        #floor-1 .second ul li h3 a {
+          color: #e00; }
+        #floor-1 .second ul li p a {
+          margin: 0 16px; }
+      #floor-1 .second ul li:last-child {
+        border: 0; }
+    #floor-1 .second ul.te {
+      display: block; }
+    #floor-1 .second ul:nth-child(3) {
+      top: 210px; }
+    #floor-1 .second ul:nth-child(4) {
+      top: 210px; }
+    #floor-1 .second ul:nth-child(5) {
+      top: 380px; }
+    #floor-1 .second ul:nth-child(6) {
+      top: 376px; }

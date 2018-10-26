@@ -1,0 +1,5 @@
+/* 底标 */
+#footer-bar{margin: 20px auto 30px;padding: 0 160px;box-sizing: border-box;}
+#footer-bar div.float-left a img{height: 44px;}
+#footer-bar div.float-right p{line-height: 22px;}
+#footer-bar div.float-right p>*{margin-right: 10px;}

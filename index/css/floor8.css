@@ -1,0 +1,37 @@
+/* 八楼 */
+#floor-8 div.float-left{width: 960px;}
+#floor-8 div.float-left h3 a{text-decoration: none;}
+#floor-8 div.float-left h3 span{font-style: normal;color:#5eadb1;margin-left: 10px;}
+#floor-8 div.float-left .f8-box{margin-top: 10px;}
+/* 出版社 */
+#floor-8 div.float-left .f8-box ol{width: 210px;line-height: 46px;background: #f5f5f5;}
+#floor-8 div.float-left .f8-box ol li{padding-left: 20px;padding-right: 10px;}
+#floor-8 div.float-left .f8-box ol li a{display: block;}
+#floor-8 div.float-left .f8-box ol li a *{color: #333;}
+#floor-8 div.float-left .f8-box ol li i{display: none;}
+#floor-8 div.float-left .f8-box ol li.te{background: #5eadb1;}
+#floor-8 div.float-left .f8-box ol li.te *{color: #fff;display: inline;}
+/* 展示 */
+#floor-8 div.float-left .f8-box div.display{width: 732px;}
+/* 出版社介绍 */
+#floor-8 div.float-left .f8-box div.display article{display: none;}
+#floor-8 div.float-left .f8-box div.display article.te{display: block;}
+#floor-8 div.float-left .f8-box div.display .top{padding: 0 34px;height: 180px;border-bottom: 1px solid #eee;}
+#floor-8 div.float-left .f8-box div.display .top h6 a{line-height: 46px;font-size: 18px;text-decoration: none;}
+#floor-8 div.float-left .f8-box div.display .top p{line-height: 26px;color: #666;text-indent: 2em;}
+/* 书籍展示 */
+#floor-8 div.float-left .f8-box div.display .bottom div.float-left{width: 100%;overflow: hidden;}
+#floor-8 div.float-left .f8-box div.display .bottom div.float-left ul{margin: 0;}
+/* 作者展示 */
+#floor-8 aside.float-right{width: 230px;}
+#floor-8 aside.float-right h3{background: #5eadb1;}
+#floor-8 aside.float-right h3 span{color: #fff;margin-left: 10px;font-style: normal;}
+/* 书籍展示 */
+#floor-8 aside.float-right div.bottom-box{padding: 18px;border: 1px solid #eee;border-top: 0;}
+#floor-8 aside.float-right div.bottom-box p:first-of-type{margin-bottom: 14px;}
+#floor-8 aside.float-right div.bottom-box p:first-of-type a{padding: 0 10px;background: #5eadb1;color: #fff;font: 14px/24px "";}
+#floor-8 aside.float-right div.bottom-box p:last-of-type{line-height: 18px;}
+#floor-8 aside.float-right div.bottom div{width: 100%}
+#floor-8 aside.float-right div.bottom ul{margin: 0;width: 100%;justify-content: center;}
+#floor-8 aside.float-right .others{padding: 11px 12px;border: 1px solid #eee;border-top: 0;background: #f7f7f7;}
+#floor-8 aside.float-right .others a{line-height: 20px;margin: 0 12px;white-space: nowrap;}

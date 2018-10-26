@@ -1,0 +1,5 @@
+main h4{height: 24px;border-left: 4px solid #e00;display: flex;justify-content: space-between;text-indent: 12px;font-size: 14px;width: 800px;margin-left: -25px;line-height: 24px;}
+main h4 span:first-child b{font-size: 22px;}
+main h4 span:first-child u{color: #e00;vertical-align: bottom;}
+main h4 span:last-child i{color: #bbb;}
+main h4 span:last-child a{color: #999;}

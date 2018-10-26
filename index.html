@@ -1,0 +1,4043 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的图书网</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index/css/index.css" />
+</head>
+<body>
+    <!-- 活动页入口 -->
+    <section id="activity">
+        <a href="hot/hot.html" class="ad layout w1200"><img src="goodlist/images/ad.jpg" alt="" class="w1200"></a>
+    </section>
+
+    <!-- 顶栏 -->
+    <header id="top-bar">
+        <div class="layout w1200 clear">
+            <!-- 左 -->
+            <div class="top-bar-l float-left">
+                <b>欢迎光临我的图书网&nbsp;请</b>
+                <a href="login_register/login.html" class="login">登录</a>
+                <span>|</span>
+                <a href="login_register/register.html" class="regist">注册</a>
+            </div>
+            <!-- 右 -->
+            <div class="top-bar-r float-right">
+                <ul class="clear">
+                    <li class="float-left"><a href="shopCar/shopCar.html">购物车</a><i>0</i></li>
+                    <li class="float-left"><a href="#">我的订单</a></li>
+                    <li class="float-left">
+                        <a>我的账户</a>
+                        <ol>
+                            <li>
+                                <a>我的收藏夹</a>
+                                <a>账户余额</a>
+                            </li>   
+                            <li>
+                                <a>我的优惠券</a>
+                                <a>我的积分</a>
+                            </li>
+                            <li>
+                                <a>收货地址</a>
+                                <a>我的书评</a>
+                            </li>
+                            <li>
+                                <a>我的消息</a>
+                                <a>积分换券</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="float-left"><a href="#">帮助中心</a></li>
+                    <li class="float-left">
+                        <a href="#">手机我图</a>
+                        <ol>
+                            <li>
+                                <img src="index/images/weiboerweima.jpg" alt="">
+                                <div>
+                                    <h6>扫一扫</h6>
+                                    <p>关注中图网<br>官方微博</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="index/images/weixinerweima.jpg" alt="">
+                                <div>
+                                    <h6>扫一扫</h6>
+                                    <p>关注中图网<br>微信公众号</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="index/images/phoneerweima.jpg" alt="">
+                                <div>
+                                    <h6>手机中图</h6>
+                                    <p>进入中图网<br>手机触屏版</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- 楼层栏 -->
+    <section id="floor">
+        <ul>
+            <li>
+                <b>淘</b>
+                <span>淘书团热销</span>
+            </li>
+            <li>
+                <b>包</b>
+                <span>包邮区</span>
+            </li>
+            <li>
+                <b>文</b>
+                <span>文学图书</span>
+            </li>
+            <li>
+                <b>社</b>
+                <span>社科图书</span>
+            </li>
+            <li>
+                <b>儿</b>
+                <span>儿童图书</span>
+            </li>
+            <li>
+                <b>其</b>
+                <span>其他</span>
+            </li>
+            <li>
+                <b>出</b>
+                <span>出版社专区</span>
+            </li>
+            <li>
+                <b>回</b>
+                <span>回到顶部</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 搜索栏 -->
+    <div id="search" class="w1200 clear layout">
+        <!-- logo -->
+        <div class="logo float-left">
+            <h1>我的图书网</h1>
+            <a href="index.html"></a>
+        </div>
+        <!-- 搜索框 -->
+        <div class="search float-left">
+            <div class="clear">
+                <div class="search-bar float-left">
+                    <input type="text" name="" class=" float-left" value="嗜好的极致:癖理由" />
+                    <span class="float-left">搜索全部</span>
+                    <!-- 下拉框 -->
+                    <ol class="dorp-up">
+                        <li class="on">搜索全部</li>
+                        <li>书名</li>
+                        <li>作者</li>
+                        <li>出版社</li>
+                        <li>ISBN</li>
+                    </ol>
+                    <input type="button" value="搜索" class=" float-left" />
+                </div>
+                <!-- 高级搜索 -->
+                <a href="#" class="pro-search float-left">高级搜索</a>
+            </div>
+            <!-- 关键字 -->
+            <p class="keys">
+                <a href="#">中国文库</a>
+                <a href="#">春树的诗</a>
+                <a href="#">假如真有时光机</a>
+                <a href="#">汉语词汇与华夏文化</a>
+            </p>
+        </div>
+        <!-- 信息板 -->
+        <div class="info-box float-right">
+            <div><a href="#">新版注册登陆上线</a></div>
+            <div><a href="#">暂停开具订单发票</a></div>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav id="book-nav">
+        <div class="w1200 layout clear">
+            <a href="#" class="float-left book-class">图书分类</a>
+            <ul class="float-left">
+                <li class="float-left te"><a href="index.html">首页</a></li>
+                <li class="float-left"><a href="goodlist/goodlist.html">淘书团</a></li>
+                <li class="float-left"><a href="goodlist/goodlist.html">畅销榜</a></li>
+                <li class="float-left"><a href="goodlist/goodlist.html">新上架</a></li>
+                <li class="float-left"><a href="goodlist/goodlist.html">9块9包邮</a></li>
+                <li class="float-left"><a href="goodlist/goodlist.html">出版社浏览</a></li>
+                <li class="float-left"><a href="goodlist/goodlist.html">闲情雅趣</a></li>
+                <li class="float-left"><a href="goodlist/goodlist.html">批发</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 一楼 -->
+    <section id="floor-1" class="w1200 layout">
+        <div class="top clear">
+            <!-- 分类框 -->
+            <aside class="book-class float-left">
+                <ul>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">文学</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">小说</a>
+                            <a href="#">青春文学</a>
+                            <a href="#">中国散文</a>
+                            <a href="#">外国散文</a>
+                            <a href="#">悬疑推理</a>
+                            <a href="#">文学理论</a>
+                            <a href="#">文集</a>
+                            <a href="#">世界名著</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">社科</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">历史</a>
+                            <a href="#">哲学/宗教</a>
+                            <a href="#">社会科学</a>
+                            <a href="#">政治军事</a>
+                            <a href="#">传记</a>
+                            <a href="#">文化</a>
+                            <a href="#">古籍</a>
+                            <a href="#">管理</a>
+                            <a href="#">经济</a>
+                            <a href="#">成功励志</a>
+                            <a href="#">法律</a>
+                            <a href="#">语言文学</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">少儿</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">中国儿童文学</a>
+                            <a href="#">外国儿童文学</a>
+                            <a href="#">科普读物</a>
+                            <a href="#">绘本</a>
+                            <a href="#">动漫/卡通</a>
+                            <a href="#">幼儿启蒙</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">艺术</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">绘画</a>
+                            <a href="#">书法篆刻</a>
+                            <a href="#">艺术理论</a>
+                            <a href="#">摄影</a>
+                            <a href="#">音乐</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">生活</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">美食</a>
+                            <a href="#">保健/心理健康</a>
+                            <a href="#">旅游</a>
+                            <a href="#">家庭教育</a>
+                            <a href="#">家居休闲</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">文教</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">中小学教辅</a>
+                            <a href="#">外语</a>
+                            <a href="#">教材</a>
+                            <a href="#">医学</a>
+                            <a href="#">计算机</a>
+                            <a href="#">自然科学</a>
+                        </p>
+                    </li>
+                    <li class="clear">
+                        <a href="#" class="float-right">全部商品分类&gt;&gt;</a>
+                    </li>
+                </ul>
+                <!-- 最近活动 -->
+                <div class="lately">
+                    <a href="#"><img src="index/images/lately1.jpg" alt=""></a>
+                    <a href="#"><img src="index/images/lately2.jpg" alt=""></a>
+                </div>
+            </aside>
+
+            <!-- 二级菜单 -->
+            <div class="second float-right">
+                <ul>
+                    <li>
+                        <h3><a href="#">小说</a></h3>
+                        <p>
+                            <a href="#">外国小说</a>
+                            <span>|</span>
+                            <a href="#">中国当代小说</a>
+                            <span>|</span>
+                            <a href="#">中国古典小说</a>
+                            <span>|</span>
+                            <a href="#">中国近现代小说</a>
+                            <span>|</span>
+                            <a href="#">悬疑推理</a>
+                            <span>|</span>
+                            <a href="#">科幻小说</a>
+                            <span>|</span>
+                            <a href="#">世界名著</a>
+                            <span>|</span>
+                            <a href="#">四大名著</a>
+                            <span>|</span>
+                            <a href="#">作品集</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">文学</a></h3>
+                        <p>
+                            <a href="#">外国诗歌</a>
+                            <span>|</span>
+                            <a href="#">中国古诗词</a>
+                            <span>|</span>
+                            <a href="#">中国现当代诗歌</a>
+                            <span>|</span>
+                            <a href="#">外国散文</a>
+                            <span>|</span>
+                            <a href="#">中国现当代散文</a>
+                            <span>|</span>
+                            <a href="#">中国古代散文</a>
+                            <span>|</span>
+                            <a href="#">文学理论</a>
+                            <span>|</span>
+                            <a href="#">文集</a>
+                            <span>|</span>
+                            <a href="#">戏剧</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">青春文学</a></h3>
+                        <p>
+                            <a href="#">玄幻/科幻</a>
+                            <span>|</span>
+                            <a href="#">悬疑/惊悚</a>
+                            <span>|</span>
+                            <a href="#">叛逆/成长</a>
+                            <span>|</span>
+                            <a href="#">爆笑/无厘头</a>
+                            <span>|</span>
+                            <a href="#">校园</a>
+                            <span>|</span>
+                            <a href="#">港台青春文学</a>
+                            <span>|</span>
+                            <a href="#">外国青春文学</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">历史</a></h3>
+                        <p>
+                            <a href="#">中国史</a>
+                            <span>|</span>
+                            <a href="#">世界史</a>
+                            <span>|</span>
+                            <a href="#">地方史志</a>
+                            <span>|</span>
+                            <a href="#">历史知识读物</a>
+                            <span>|</span>
+                            <a href="#">史料典籍</a>
+                            <span>|</span>
+                            <a href="#">史学理论</a>
+                            <span>|</span>
+                            <a href="#">考古文物</a>
+                            <span>|</span>
+                            <a href="#">民族史志</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">政治/哲学</a></h3>
+                        <p>
+                            <a href="#">政治</a>
+                            <span>|</span>
+                            <a href="#">军事</a>
+                            <span>|</span>
+                            <a href="#">中国政治</a>
+                            <span>|</span>
+                            <a href="#">国际政治</a>
+                            <span>|</span>
+                            <a href="#">外交/国际关系</a>
+                            <span>|</span>
+                            <a href="#">哲学</a>
+                            <span>|</span>
+                            <a href="#">宗教</a>
+                            <span>|</span>
+                            <a href="#">美学</a>
+                            <span>|</span>
+                            <a href="#">哲学知识读物</a>
+                            <span>|</span>
+                            <a href="#">中国古代哲学</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">传记</a></h3>
+                        <p>
+                            <a href="#">历代帝王</a>
+                            <span>|</span>
+                            <a href="#">历史人物</a>
+                            <span>|</span>
+                            <a href="#">科学家</a>
+                            <span>|</span>
+                            <a href="#">体育明星</a>
+                            <span>|</span>
+                            <a href="#">文学家</a>
+                            <span>|</span>
+                            <a href="#">学者</a>
+                            <span>|</span>
+                            <a href="#">艺术家</a>
+                            <span>|</span>
+                            <a href="#">文娱明星</a>
+                            <span>|</span>
+                            <a href="#">政治人物</a>
+                            <span>|</span>
+                            <a href="#">自传</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">文化</a></h3>
+                        <p>
+                            <a href="#">世界文化</a>
+                            <span>|</span>
+                            <a href="#">中国文化</a>
+                            <span>|</span>
+                            <a href="#">中国民俗</a>
+                            <span>|</span>
+                            <a href="#">地域文化</a>
+                            <span>|</span>
+                            <a href="#">文化理论</a>
+                            <span>|</span>
+                            <a href="#">文化评述</a>
+                            <span>|</span>
+                            <a href="#">神秘现象</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">社会科学</a></h3>
+                        <p>
+                            <a href="#">心理学</a>
+                            <span>|</span>
+                            <a href="#">人类学</a>
+                            <span>|</span>
+                            <a href="#">教育</a>
+                            <span>|</span>
+                            <a href="#">社会学</a>
+                            <span>|</span>
+                            <a href="#">新闻传播出版</a>
+                            <span>|</span>
+                            <a href="#">语言文字</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">古籍</a></h3>
+                        <p>
+                            <a href="#">古籍整理</a>
+                            <span>|</span>
+                            <a href="#">经部</a>
+                            <span>|</span>
+                            <a href="#">史类</a>
+                            <span>|</span>
+                            <a href="#">子部</a>
+                            <span>|</span>
+                            <a href="#">集部</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">经济/管理</a></h3>
+                        <p>
+                            <a href="#">经济理论</a>
+                            <span>|</span>
+                            <a href="#">中国经济</a>
+                            <span>|</span>
+                            <a href="#">国际经济</a>
+                            <span>|</span>
+                            <a href="#">经济通俗读物</a>
+                            <span>|</span>
+                            <a href="#">保险</a>
+                            <span>|</span>
+                            <a href="#">会计</a>
+                            <span>|</span>
+                            <a href="#">金融投资</a>
+                            <span>|</span>
+                            <a href="#">市场营销</a>
+                            <span>|</span>
+                            <a href="#">管理学</a>
+                            <span>|</span>
+                            <a href="#">电子商务</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">成功励志</a></h3>
+                        <p>
+                            <a href="#">成功激励</a>
+                            <span>|</span>
+                            <a href="#">口才演讲</a>
+                            <span>|</span>
+                            <a href="#">名人励志</a>
+                            <span>|</span>
+                            <a href="#">人际交往</a>
+                            <span>|</span>
+                            <a href="#">人生哲学</a>
+                            <span>|</span>
+                            <a href="#">心灵修养</a>
+                            <span>|</span>
+                            <a href="#">性格习惯</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">法律</a></h3>
+                        <p>
+                            <a href="#">法的理论</a>
+                            <span>|</span>
+                            <a href="#">法律法规</a>
+                            <span>|</span>
+                            <a href="#">国际法</a>
+                            <span>|</span>
+                            <a href="#">经济法</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">儿童文学</a></h3>
+                        <p>
+                            <a href="#">中国儿童文学</a>
+                            <span>|</span>
+                            <a href="#">外国儿童文学</a>
+                            <span>|</span>
+                            <a href="#">童话</a>
+                            <span>|</span>
+                            <a href="#">小说</a>
+                            <span>|</span>
+                            <a href="#">寓言传说</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">绘本</a></h3>
+                        <p>
+                            <a href="#">动漫/卡通</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">科普百科</a></h3>
+                        <p>
+                            <a href="#">科普</a>
+                            <span>|</span>
+                            <a href="#">百科</a>
+                            <span>|</span>
+                            <a href="#">历史读物</a>
+                            <span>|</span>
+                            <a href="#">生活常识</a>
+                            <span>|</span>
+                            <a href="#">益智游戏</a>
+                            <span>|</span>
+                            <a href="#">传统文化</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">其他</a></h3>
+                        <p>
+                            <a href="#">幼儿启蒙</a>
+                            <span>|</span>
+                            <a href="#">少儿英语</a>
+                            <span>|</span>
+                            <a href="#">励志/成长</a>
+                            <span>|</span>
+                            <a href="#">艺术课堂</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">年龄馆</a></h3>
+                        <p>
+                            <a href="#">0-2岁</a>
+                            <span>|</span>
+                            <a href="#">3-6岁</a>
+                            <span>|</span>
+                            <a href="#">7岁及以上</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">绘画</a></h3>
+                        <p>
+                            <a href="#">绘画理论</a>
+                            <span>|</span>
+                            <a href="#">国画</a>
+                            <span>|</span>
+                            <a href="#">油画</a>
+                            <span>|</span>
+                            <a href="#">素描速写</a>
+                            <span>|</span>
+                            <a href="#">水粉水彩</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">书法纂刻</a></h3>
+                        <p>
+                            <a href="#">碑帖</a>
+                            <span>|</span>
+                            <a href="#">技法教程</a>
+                            <span>|</span>
+                            <a href="#">书法理论</a>
+                            <span>|</span>
+                            <a href="#">硬笔书法</a>
+                            <span>|</span>
+                            <a href="#">字帖</a>
+                            <span>|</span>
+                            <a href="#">篆刻</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">摄影/设计</a></h3>
+                        <p>
+                            <a href="#">设计</a>
+                            <span>|</span>
+                            <a href="#">摄影后期</a>
+                            <span>|</span>
+                            <a href="#">摄影教程</a>
+                            <span>|</span>
+                            <a href="#">摄影理论</a>
+                            <span>|</span>
+                            <a href="#">摄影器材</a>
+                            <span>|</span>
+                            <a href="#">数码摄影</a>
+                            <span>|</span>
+                            <a href="#">作品集</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">舞台影视艺术</a></h3>
+                        <p>
+                            <a href="#">影视理论</a>
+                            <span>|</span>
+                            <a href="#">影视赏析</a>
+                            <span>|</span>
+                            <a href="#">影视制作</a>
+                            <span>|</span>
+                            <a href="#">舞台/戏曲艺术</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">音乐</a></h3>
+                        <p>
+                            <a href="#">钢琴</a>
+                            <span>|</span>
+                            <a href="#">吉它</a>
+                            <span>|</span>
+                            <a href="#">理论/欣赏</a>
+                            <span>|</span>
+                            <a href="#">声乐</a>
+                            <span>|</span>
+                            <a href="#">通俗音乐</a>
+                            <span>|</span>
+                            <a href="#">外国音乐</a>
+                            <span>|</span>
+                            <a href="#">中国民族音乐</a>
+                            <span>|</span>
+                            <a href="#">作曲/指挥</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">收藏鉴赏</a></h3>
+                        <p>
+                            <a href="#">宝石</a>
+                            <span>|</span>
+                            <a href="#">雕品</a>
+                            <span>|</span>
+                            <a href="#">古代家具</a>
+                            <span>|</span>
+                            <a href="#">钱币</a>
+                            <span>|</span>
+                            <a href="#">收藏百科</a>
+                            <span>|</span>
+                            <a href="#">收藏随笔</a>
+                            <span>|</span>
+                            <a href="#">书画</a>
+                            <span>|</span>
+                            <a href="#">陶瓷</a>
+                            <span>|</span>
+                            <a href="#">玉器</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">更多</a></h3>
+                        <p>
+                            <a href="#">艺术理论</a>
+                            <span>|</span>
+                            <a href="#">雕塑</a>
+                            <span>|</span>
+                            <a href="#">工艺美术</a>
+                            <span>|</span>
+                            <a href="#">建筑艺术</a>
+                            <span>|</span>
+                            <a href="#">民间艺术</a>
+                            <span>|</span>
+                            <a href="#">人体艺术</a>
+                            <span>|</span>
+                            <a href="#">艺术类考试</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">美食</a></h3>
+                        <p>
+                            <a href="#">饮食文化</a>
+                            <span>|</span>
+                            <a href="#">保健食谱</a>
+                            <span>|</span>
+                            <a href="#">家常食谱</a>
+                            <span>|</span>
+                            <a href="#">八大菜系</a>
+                            <span>|</span>
+                            <a href="#">餐饮指南</a>
+                            <span>|</span>
+                            <a href="#">世界美食</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">保健/心理健康</a></h3>
+                        <p>
+                            <a href="#">健康百科</a>
+                            <span>|</span>
+                            <a href="#">健身</a>
+                            <span>|</span>
+                            <a href="#">心理健康</a>
+                            <span>|</span>
+                            <a href="#">中老年</a>
+                            <span>|</span>
+                            <a href="#">中医保健</a>
+                            <span>|</span>
+                            <a href="#">常见病</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">旅游</a></h3>
+                        <p>
+                            <a href="#">旅游随笔</a>
+                            <span>|</span>
+                            <a href="#">旅游攻略</a>
+                            <span>|</span>
+                            <a href="#">旅游画册</a>
+                            <span>|</span>
+                            <a href="#">城市自助游</a>
+                            <span>|</span>
+                            <a href="#">国内自助游</a>
+                            <span>|</span>
+                            <a href="#">国外自助游</a>
+                            <span>|</span>
+                            <a href="#">地图地理</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">孕产育儿</a></h3>
+                        <p>
+                            <a href="#">孕产百科</a>
+                            <span>|</span>
+                            <a href="#">育儿百科</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">更多</a></h3>
+                        <p>
+                            <a href="#">美丽妆扮</a>
+                            <span>|</span>
+                            <a href="#">两性关系</a>
+                            <span>|</span>
+                            <a href="#">家居休闲</a>
+                            <span>|</span>
+                            <a href="#">个人理财</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">中小学教辅</a></h3>
+                        <p>
+                            <a href="#">语文阅读</a>
+                            <span>|</span>
+                            <a href="#">拓展读物</a>
+                            <span>|</span>
+                            <a href="#">高考</a>
+                            <span>|</span>
+                            <a href="#">初中通用</a>
+                            <span>|</span>
+                            <a href="#">高中通用</a>
+                            <span>|</span>
+                            <a href="#">工具书</a>
+                            <span>|</span>
+                            <a href="#">教师用书</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">外语</a></h3>
+                        <p>
+                            <a href="#">英语读物</a>
+                            <span>|</span>
+                            <a href="#">职业英语</a>
+                            <span>|</span>
+                            <a href="#">英语考试</a>
+                            <span>|</span>
+                            <a href="#">大学英语</a>
+                            <span>|</span>
+                            <a href="#">少儿英语</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">教材</a></h3>
+                        <p>
+                            <a href="#">研究生/本科/专科教材 </a>
+                            <span>|</span>
+                            <a href="#">职业技术培训</a>
+                            <span>|</span>
+                            <a href="#">中小学教材</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">计算机</a></h3>
+                        <p>
+                            <a href="#">操作系统/系统开发</a>
+                            <span>|</span>
+                            <a href="#">数据库</a>
+                            <span>|</span>
+                            <a href="#">信息安全</a>
+                            <span>|</span>
+                            <a href="#">程序设计</a>
+                            <span>|</span>
+                            <a href="#">电脑杂志</a>
+                            <span>|</span>
+                            <a href="#">计算机教材</a>
+                            <span>|</span>
+                            <a href="#">计算机考试认证</a>
+                            <span>|</span>
+                            <a href="#">计算机理论</a>
+                            <span>|</span>
+                            <a href="#">计算机体系结构</a>
+                            <span>|</span>
+                            <a href="#">家庭与办公室用书</a>
+                            <span>|</span>
+                            <a href="#">企业软件开发与实施</a>
+                            <span>|</span>
+                            <a href="#">人工智能</a>
+                            <span>|</span>
+                            <a href="#">软件工程/开发项目管理</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">更多</a></h3>
+                        <p>
+                            <a href="#">考试</a>
+                            <span>|</span>
+                            <a href="#">家庭教育</a>
+                            <span>|</span>
+                            <a href="#">自然科学</a>
+                            <span>|</span>
+                            <a href="#">科普读物</a>
+                            <span>|</span>
+                            <a href="#">医学</a>
+                            <span>|</span>
+                            <a href="#">农林业</a>
+                            <span>|</span>
+                            <a href="#">工业技术</a>
+                            <span>|</span>
+                            <a href="#">建筑</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="summary float-right">
+                <!-- banner -->
+                <div class="banner">
+                    <a href="#"><img src="index/images/banner1.jpg" alt=""></a>
+                    <a href="#"><img src="index/images/banner2.jpg" alt=""></a>
+                    <a href="#"><img src="index/images/banner3.jpg" alt=""></a>
+                    <a href="#"><img src="index/images/banner4.jpg" alt=""></a>
+                    <a href="#"><img src="index/images/banner5.jpg" alt=""></a>
+                    <a href="#"><img src="index/images/banner6.jpg" alt=""></a>
+                    <div class="btns">
+                        <input type="button" name="" id="prev" value=" " />
+                        <input type="button" name="" id="next" value=" " />
+                    </div>
+                    <div class="list">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                    </div>
+                </div>
+                
+                <!-- 推荐 -->
+                <div class="new-book clear">
+                    <!-- 新书展示 -->
+                    <div class="new-book-box float-left">
+                        <!-- 选项 -->
+                        <p class="box-t">
+                            <span class="te">新品特惠</span>
+                            <span>本周精选</span>
+                            <span>新书速递</span>
+                            <span>读者热评</span>
+                        </p>
+                        <!-- 展示 -->
+                        <article class="te">
+                            <div class="box-m clear">
+                                <a href="#" class="salebook sale9 float-left"><img src="index/images/box-t1.jpg" alt=""></a>
+                                <div class="float-right">
+                                    <h4><a href="#">中国通史纲要(精装版)</a></h4>
+                                    <p>
+                                        <span class="price">￥29.2</span>
+                                        <del>￥68.0</del>
+                                    </p>
+                                    <p>我国著名史学家白寿彝主编，一本书了解中国上下五千年文明史。本书以简明的形式和深入浅出的语言，清晰地勾勒了中国历史发展的基本线索，在国内外均产生了深远的影响，至今中文版累计印数远超百万册，并有英、日、德、法、西班牙、罗马尼亚、韩、蒙等多种外文译本及世界语译本。</p>
+                                </div>
+                            </div>
+                            <!-- 展示列表 -->
+                            <ul class="box-b">
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale9"><img src="index/images/box-b1.jpg" alt=""></div>
+                                        <h6>拥抱之书/“拉丁美洲的声音”加莱亚诺作品</h6>
+                                        <p><s>￥15.5</s><del>￥36.0</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale8"><img src="index/images/box-b2.jpg" alt=""></div>
+                                        <h6>501个疯子/凤凰卫视名嘴大拿趣闻轶事大集合</h6>
+                                        <p><s>￥15.9</s><del>￥49.8</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale9"><img src="index/images/box-b3.jpg" alt=""></div>
+                                        <h6>莎士比亚诗歌全集-纪念版/苏福忠译本</h6>
+                                        <p><s>￥42.8</s><del>￥98.0</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook saleMinus"><img src="index/images/box-b4.jpg" alt=""></div>
+                                        <h6>性的问题/李银河谈性</h6>
+                                        <p><s>￥5.1</s><del>￥15.0</del></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </article>
+                        <article>
+                            <div class="box-m clear">
+                                <a href="#" class="salebook saleMinus float-left"><img src="index/images/box-t2.jpg" alt=""></a>
+                                <div class="float-right">
+                                    <h4><a href="#">文明的远歌/茅盾文学奖得主熊召政作品</a></h4>
+                                    <p>
+                                        <span class="price">￥9.0</span>
+                                        <del>￥28.0</del>
+                                    </p>
+                                    <p>熊召政，曾凭借长篇历史小说《张居正》获得第六届茅盾文学奖第一名。本书收录了作者的游记散文，游览佛教圣地的见闻和对佛教的感悟，以及陶醉在自然之大美中的怡然自乐，既生发出无尽的历史追思，也道出胜地鲜为人知的历史典故。</p>
+                                </div>
+                            </div>
+                            <!-- 展示列表 -->
+                            <ul class="box-b">
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale8"><img src="index/images/box-b2.jpg" alt=""></div>
+                                        <h6>501个疯子/凤凰卫视名嘴大拿趣闻轶事大集合</h6>
+                                        <p><s>￥15.9</s><del>￥49.8</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale9"><img src="index/images/box-b1.jpg" alt=""></div>
+                                        <h6>拥抱之书/“拉丁美洲的声音”加莱亚诺作品</h6>
+                                        <p><s>￥15.5</s><del>￥36.0</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook saleMinus"><img src="index/images/box-b4.jpg" alt=""></div>
+                                        <h6>性的问题/李银河谈性</h6>
+                                        <p><s>￥5.1</s><del>￥15.0</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale9"><img src="index/images/box-b3.jpg" alt=""></div>
+                                        <h6>莎士比亚诗歌全集-纪念版/苏福忠译本</h6>
+                                        <p><s>￥42.8</s><del>￥98.0</del></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </article>
+                        <article>
+                            <div class="box-m clear">
+                                <a href="#" class="salebook float-left"><img src="index/images/box-t3.jpg" alt=""></a>
+                                <div class="float-right">
+                                    <h4><a href="#">我的儿子原来是猴子</a></h4>
+                                    <p>
+                                        <span class="price">￥15.2</span>
+                                        <del>￥22.8</del>
+                                    </p>
+                                    <p>漫画家佐野洋子亲子散文，真实细腻，直抵人心；配有佐野洋子10幅亲笔插图，童趣盎然。本书通过讲述一个母亲和自己的调皮孩子相处点滴，满含的是对孩子的爱和包容，对于亲子教育和亲子相处有很大的启发性和借鉴意义。</p>
+                                </div>
+                            </div>
+                            <!-- 展示列表 -->
+                            <ul class="box-b">
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale8"><img src="index/images/box-b2.jpg" alt=""></div>
+                                        <h6>501个疯子/凤凰卫视名嘴大拿趣闻轶事大集合</h6>
+                                        <p><s>￥15.9</s><del>￥49.8</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale9"><img src="index/images/box-b3.jpg" alt=""></div>
+                                        <h6>莎士比亚诗歌全集-纪念版/苏福忠译本</h6>
+                                        <p><s>￥42.8</s><del>￥98.0</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale9"><img src="index/images/box-b1.jpg" alt=""></div>
+                                        <h6>拥抱之书/“拉丁美洲的声音”加莱亚诺作品</h6>
+                                        <p><s>￥15.5</s><del>￥36.0</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook saleMinus"><img src="index/images/box-b4.jpg" alt=""></div>
+                                        <h6>性的问题/李银河谈性</h6>
+                                        <p><s>￥5.1</s><del>￥15.0</del></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </article>
+                        <article>
+                            <div class="box-m clear">
+                                <a href="#" class="salebook saleMinus float-left"><img src="index/images/box-t4.jpg" alt=""></a>
+                                <div class="float-right">
+                                    <h4><a href="#">三毛的最后一封信</a></h4>
+                                    <p>
+                                        <span class="price">￥12.7</span>
+                                        <del>￥39.8</del>
+                                    </p>
+                                    <p>台湾青年才子眭澔平，三毛生前最亲密的朋友、知己，三毛口中的“小熊”。三毛离世后，旅途中的眭澔平意外发现三毛生前送给他的书中的信笺——竟成为三毛在离世前的最后一封信……他用20年时间重走三毛去过的所有地方，用文字、绘画、音乐让读者看到、听到，传奇女性三毛在人生最后一年中，深切、诚挚、令人心碎的灵魂告白。</p>
+                                </div>
+                            </div>
+                            <!-- 展示列表 -->
+                            <ul class="box-b">
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale8"><img src="index/images/box-b2.jpg" alt=""></div>
+                                        <h6>501个疯子/凤凰卫视名嘴大拿趣闻轶事大集合</h6>
+                                        <p><s>￥15.9</s><del>￥49.8</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale9"><img src="index/images/box-b3.jpg" alt=""></div>
+                                        <h6>莎士比亚诗歌全集-纪念版/苏福忠译本</h6>
+                                        <p><s>￥42.8</s><del>￥98.0</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook saleMinus"><img src="index/images/box-b4.jpg" alt=""></div>
+                                        <h6>性的问题/李银河谈性</h6>
+                                        <p><s>￥5.1</s><del>￥15.0</del></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="salebook sale9"><img src="index/images/box-b1.jpg" alt=""></div>
+                                        <h6>拥抱之书/“拉丁美洲的声音”加莱亚诺作品</h6>
+                                        <p><s>￥15.5</s><del>￥36.0</del></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <!-- 畅销榜 -->
+                    <div class="hot float-right">
+                        <h4 class="clear">
+                            <span class="float-left">图书畅销榜</span>
+                            <a href="#" class="float-right">更多&gt;&gt;</a>
+                        </h4>
+                        <!-- 选项卡 -->
+                        <div class="tab">
+                            <h5>
+                                <b class="te"><a href="#">总榜</a></b>
+                                <b><a href="#">文学</a></b>
+                                <b><a href="#">社科</a></b>
+                                <b><a href="#">少儿</a></b>
+                            </h5>
+                            <!-- 列表 -->
+                            <article class="te">
+                                <ul>
+                                    <li class="te">
+                                        <a href="#">
+                                            <span>01</span>
+                                            <img src="index/images/tab-img01.jpg" alt="">
+                                            <div>
+                                                <p>剑桥简明金庸武侠史</p>
+                                                <p>
+                                                    <b>￥16.1</b>
+                                                    <del>￥32.8</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>02</span>
+                                            <img src="index/images/tab-img02.jpg" alt="">
+                                            <div>
+                                                <p>呐喊</p>
+                                                <p>
+                                                    <b>￥4.9</b>
+                                                    <del>￥14.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>03</span><img src="index/images/tab-img03.jpg" alt="">
+                                            <div>
+                                                <p>食事-汪曾祺精选集</p>
+                                                <p>
+                                                    <b>￥15.5</b>
+                                                    <del>￥36.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>04</span><img src="index/images/tab-img04.jpg" alt="">
+                                            <div>
+                                                <p>聚会</p>
+                                                <p>
+                                                    <b>￥9.0</b>
+                                                    <del>￥25.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>05</span><img src="index/images/tab-img05.jpg" alt="">
+                                            <div>
+                                                <p>性的问题</p>
+                                                <p>
+                                                    <b>￥5.1</b>
+                                                    <del>￥15.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>06</span><img src="index/images/tab-img06.jpg" alt="">
+                                            <div>
+                                                <p>两宋道教与政治关系研究</p>
+                                                <p>
+                                                    <b>￥9.0</b>
+                                                    <del>￥30.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>07</span><img src="index/images/tab-img07.jpg" alt="">
+                                            <div>
+                                                <p>中国智慧</p>
+                                                <p>
+                                                    <b>$7.0</b>
+                                                    <del>￥22.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>08</span><img src="index/images/tab-img08.jpg" alt="">
+                                            <div>
+                                                <p>文心--中国文库(综合.普及类)</p>
+                                                <p>
+                                                    <b>￥9.9</b>
+                                                    <del>￥15.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>09</span><img src="index/images/tab-img09.jpg" alt="">
+                                            <div>
+                                                <p>所有人问所有人</p>
+                                                <p>
+                                                    <b>￥8.0</b>
+                                                    <del>￥38.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>10</span><img src="index/images/tab-img10.jpg" alt="">
+                                            <div>
+                                                <p>敬宜笔记续编</p>
+                                                <p>
+                                                    <b>￥5.8</b>
+                                                    <del>￥18.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </article>
+                            <article>
+                                <ul>
+                                    <li class="te">
+                                        <a href="#">
+                                            <span>01</span><img src="index/images/tab-img05.jpg" alt="">
+                                            <div>
+                                                <p>性的问题</p>
+                                                <p>
+                                                    <b>￥5.1</b>
+                                                    <del>￥15.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>02</span><img src="index/images/tab-img06.jpg" alt="">
+                                            <div>
+                                                <p>两宋道教与政治关系研究</p>
+                                                <p>
+                                                    <b>￥9.0</b>
+                                                    <del>￥30.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>03</span>
+                                            <img src="index/images/tab-img01.jpg" alt="">
+                                            <div>
+                                                <p>剑桥简明金庸武侠史</p>
+                                                <p>
+                                                    <b>￥16.1</b>
+                                                    <del>￥32.8</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>04</span>
+                                            <img src="index/images/tab-img02.jpg" alt="">
+                                            <div>
+                                                <p>呐喊</p>
+                                                <p>
+                                                    <b>￥4.9</b>
+                                                    <del>￥14.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>05</span><img src="index/images/tab-img03.jpg" alt="">
+                                            <div>
+                                                <p>食事-汪曾祺精选集</p>
+                                                <p>
+                                                    <b>￥15.5</b>
+                                                    <del>￥36.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>06</span><img src="index/images/tab-img04.jpg" alt="">
+                                            <div>
+                                                <p>聚会</p>
+                                                <p>
+                                                    <b>￥9.0</b>
+                                                    <del>￥25.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>07</span><img src="index/images/tab-img07.jpg" alt="">
+                                            <div>
+                                                <p>中国智慧</p>
+                                                <p>
+                                                    <b>$7.0</b>
+                                                    <del>￥22.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>08</span><img src="index/images/tab-img08.jpg" alt="">
+                                            <div>
+                                                <p>文心--中国文库(综合.普及类)</p>
+                                                <p>
+                                                    <b>￥9.9</b>
+                                                    <del>￥15.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>09</span><img src="index/images/tab-img09.jpg" alt="">
+                                            <div>
+                                                <p>所有人问所有人</p>
+                                                <p>
+                                                    <b>￥8.0</b>
+                                                    <del>￥38.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>10</span><img src="index/images/tab-img10.jpg" alt="">
+                                            <div>
+                                                <p>敬宜笔记续编</p>
+                                                <p>
+                                                    <b>￥5.8</b>
+                                                    <del>￥18.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </article>
+                            <article>
+                                <ul>
+                                    <li class="te">
+                                        <a href="#">
+                                            <span>01</span><img src="index/images/tab-img06.jpg" alt="">
+                                            <div>
+                                                <p>两宋道教与政治关系研究</p>
+                                                <p>
+                                                    <b>￥9.0</b>
+                                                    <del>￥30.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                            <a href="#">
+                                                <span>02</span>
+                                                <img src="index/images/tab-img01.jpg" alt="">
+                                                <div>
+                                                    <p>剑桥简明金庸武侠史</p>
+                                                    <p>
+                                                        <b>￥16.1</b>
+                                                        <del>￥32.8</del>
+                                                    </p>
+                                                </div>
+                                                <s>></s>
+                                            </a>
+                                        </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>03</span><img src="index/images/tab-img07.jpg" alt="">
+                                            <div>
+                                                <p>中国智慧</p>
+                                                <p>
+                                                    <b>$7.0</b>
+                                                    <del>￥22.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>04</span><img src="index/images/tab-img08.jpg" alt="">
+                                            <div>
+                                                <p>文心--中国文库(综合.普及类)</p>
+                                                <p>
+                                                    <b>￥9.9</b>
+                                                    <del>￥15.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>05</span>
+                                            <img src="index/images/tab-img02.jpg" alt="">
+                                            <div>
+                                                <p>呐喊</p>
+                                                <p>
+                                                    <b>￥4.9</b>
+                                                    <del>￥14.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>06</span><img src="index/images/tab-img03.jpg" alt="">
+                                            <div>
+                                                <p>食事-汪曾祺精选集</p>
+                                                <p>
+                                                    <b>￥15.5</b>
+                                                    <del>￥36.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>07</span><img src="index/images/tab-img04.jpg" alt="">
+                                            <div>
+                                                <p>聚会</p>
+                                                <p>
+                                                    <b>￥9.0</b>
+                                                    <del>￥25.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>08</span><img src="index/images/tab-img05.jpg" alt="">
+                                            <div>
+                                                <p>性的问题</p>
+                                                <p>
+                                                    <b>￥5.1</b>
+                                                    <del>￥15.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>09</span><img src="index/images/tab-img09.jpg" alt="">
+                                            <div>
+                                                <p>所有人问所有人</p>
+                                                <p>
+                                                    <b>￥8.0</b>
+                                                    <del>￥38.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>10</span><img src="index/images/tab-img10.jpg" alt="">
+                                            <div>
+                                                <p>敬宜笔记续编</p>
+                                                <p>
+                                                    <b>￥5.8</b>
+                                                    <del>￥18.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </article>
+                            <article>
+                                <ul>
+                                    <li class="te">
+                                        <a href="#">
+                                            <span>01</span>
+                                            <img src="index/images/tab-img02.jpg" alt="">
+                                            <div>
+                                                <p>呐喊</p>
+                                                <p>
+                                                    <b>￥4.9</b>
+                                                    <del>￥14.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>02</span><img src="index/images/tab-img06.jpg" alt="">
+                                            <div>
+                                                <p>两宋道教与政治关系研究</p>
+                                                <p>
+                                                    <b>￥9.0</b>
+                                                    <del>￥30.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>03</span><img src="index/images/tab-img03.jpg" alt="">
+                                            <div>
+                                                <p>食事-汪曾祺精选集</p>
+                                                <p>
+                                                    <b>￥15.5</b>
+                                                    <del>￥36.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    <li>
+                                        <a href="#">
+                                            <span>04</span><img src="index/images/tab-img07.jpg" alt="">
+                                            <div>
+                                                <p>中国智慧</p>
+                                                <p>
+                                                    <b>$7.0</b>
+                                                    <del>￥22.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>05</span><img src="index/images/tab-img08.jpg" alt="">
+                                            <div>
+                                                <p>文心--中国文库(综合.普及类)</p>
+                                                <p>
+                                                    <b>￥9.9</b>
+                                                    <del>￥15.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>06</span><img src="index/images/tab-img09.jpg" alt="">
+                                            <div>
+                                                <p>所有人问所有人</p>
+                                                <p>
+                                                    <b>￥8.0</b>
+                                                    <del>￥38.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>07</span><img src="index/images/tab-img10.jpg" alt="">
+                                            <div>
+                                                <p>敬宜笔记续编</p>
+                                                <p>
+                                                    <b>￥5.8</b>
+                                                    <del>￥18.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>08</span><img src="index/images/tab-img04.jpg" alt="">
+                                            <div>
+                                                <p>聚会</p>
+                                                <p>
+                                                    <b>￥9.0</b>
+                                                    <del>￥25.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>09</span><img src="index/images/tab-img05.jpg" alt="">
+                                            <div>
+                                                <p>性的问题</p>
+                                                <p>
+                                                    <b>￥5.1</b>
+                                                    <del>￥15.0</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>10</span>
+                                            <img src="index/images/tab-img01.jpg" alt="">
+                                            <div>
+                                                <p>剑桥简明金庸武侠史</p>
+                                                <p>
+                                                    <b>￥16.1</b>
+                                                    <del>￥32.8</del>
+                                                </p>
+                                            </div>
+                                            <s>></s>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                        <p class="clear">
+                            <a href="#" class="float-right">查看完整榜单&gt;&gt;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 专题 -->
+        <div class="bottom">
+            <ul>
+                <li>
+                    <a href="#"><img src="index/images/sbanner1.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="index/images/sbanner2.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="index/images/sbanner3.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <main class="w1200 layout">
+    <!-- 二楼 -->
+    <section id="floor-2" class="title1 title">
+        <!-- 标题 -->
+        <h3 class="clear">
+            <span class="float-left">淘书团热销&nbsp;&gt;&nbsp;</span>
+            <i class="float-left">全场包邮，低至一折，每天上线</i>
+            <a href="#"  class="float-right">查看更多商品&gt;&gt;</a>
+        </h3>
+        <!-- 书 -->
+        <ul class="img">
+            <li>
+                <a href="#"><img src="index/images/floor2-img1.jpg" alt=""></a>
+                <a href="#">著名作家刘震云作品精装3种：《一句顶一万句》《我不是潘金莲》《手机》，茅盾奖获奖作品、参磨四年的扛鼎之作《一句顶一万句》，是当代文坛敢于直面真实的不可多得的佳作；刘震云首部以女性为主角的小说《我不是潘金莲》，用一个看似荒诞的故事讲述真切的生活常理；《手机》是对今天人们生活、生存的思考。后两部作品均被著名导演冯小刚改编为同名电影。定价84.6元，现团购价28元，全国包快递！</a>
+                <p class="clear">
+                    <span class="float-left"><b>团购价￥</b><i>28</i></span>
+                    <del class="float-left">￥84.6</del>
+                    <s class="float-right">3.3折</s>
+                </p>
+            </li>
+            <li>
+                <a href=""><img src="index/images/floor2-img2.jpg" alt=""></a>
+                <a href="">《郑振铎·新中国捐献文物精品全集》精装全两册，上册以高清全彩大图辑录了郑振铎先生捐献的224件陶俑，时间跨度横贯汉、魏至两宋1400多年的历史，品种丰富多样，仪仗、宴乐、出行、狩猎俑无所不包；下册收录了他的文博著作、访笺杂记、概述中国古代绘画和版画、《永乐大典》相关等方面的文章，及其主要著述目录、年表，还选配多张珍贵私人照片，带你全面了解这位文学大师和收藏大家。定价960元，现团购价129元，全国</a>
+                <p class="clear">
+                    <span class="float-left"><b>团购价￥</b><i>129</i></span>
+                    <del class="float-left">￥960.0</del>
+                    <s class="float-right">1.3折</s>
+                </p>
+            </li>
+            <li>
+                <a href=""><img src="index/images/floor2-img3.jpg" alt=""></a>
+                <a href="">语言文化三种：涵盖汉字、民俗、语言、文化等领域。《汉语词汇与华夏文化》揭示语言与文化现象在形成演变过程中的相互作用。《民俗语言初探》着重结合社会现象，探析民俗语言中所承载的丰富文化。《说字理 解汉字》根据传统“六书”造字理论，用字理分析的方法，简明准确地说明每个汉字的形、声、意联系。本套书既可作为工具书供专业读者补充材料，又是极佳的传统文化入门读物。定价114.5元，现团购价35元，全国包快递！</a>
+                <p class="clear">
+                    <span class="float-left"><b>团购价￥</b><i>35</i></span>
+                    <del class="float-left">￥114.5</del>
+                    <s class="float-right">3.1折</s>
+                </p>
+            </li>
+            <li>
+                <a href=""><img src="index/images/floor2-img4.jpg" alt=""></a>
+                <a href="">曾开启中国出版业“读图时代”的《老照片》系列7种，定格历史，收藏记忆，引发风靡全国的“老照片文化热”。书中所刊载的文章都是读者投稿，每篇文章围绕一幅或者几幅老照片背后的故事所撰写，别开生面的图书样式、回望历史的新颖视角，大到政治事件、历史人物，小到家长里短、平民百姓，观照百年来中国人的生存与发展，是一份宝贵而鲜活的记录。定价95元，现团购价32元，全国包快递！</a>
+                <p class="clear">
+                    <span class="float-left"><b>团购价￥</b><i>32</i></span>
+                    <del class="float-left">￥95.0</del>
+                    <s class="float-right">3.4折</s>
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 三楼 -->
+    <section id="floor-3" class="title title1 title2">
+        <!-- 标题 -->
+        <h3 class="clear">
+            <span class="float-left">包邮区&nbsp;&gt;&nbsp;</span>
+            <i class="float-left">任选一本 整单包邮</i>
+            <a href="#"  class="float-right">查看更多商品&gt;&gt;</a>
+        </h3>
+        <!-- 书 -->
+        <ul class="img">
+            <li>
+                <a href="#">
+                    <h6>真相</h6>
+                    <p>￥38.0</p>
+                    <div><img src="index/images/floor3-img1.jpg" alt=""></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h6>本色男人·名画中的男人之谜</h6>
+                    <p>￥49.8</p>
+                    <div><img src="index/images/floor3-img2.jpg" alt=""></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h6>原色女人·名画中的女人之谜</h6>
+                    <p>￥49.8</p>
+                    <div><img src="index/images/floor3-img3.jpg" alt=""></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h6>为什么你的睫毛不会长长?-孩子对身体的101个有趣的提问</h6>
+                    <p>￥21.0</p>
+                    <div><img src="index/images/floor3-img4.jpg" alt=""></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h6>百家讲坛－于丹《论语》感悟</h6>
+                    <p>￥22.0</p>
+                    <div><img src="index/images/floor3-img5.jpg" alt=""></div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 四楼 -->
+    <section id="floor-4" class="title title2">
+        <h3 class="clear">
+            <div class="float-left"><a href="#">文学图书&nbsp;&gt;</a></div>
+            <ol class="float-left">
+                <li><a href="#" class="display">小说</a></li>
+                <li><a href="#">诗歌散文</a></li>
+                <li><a href="#">悬疑推理</a></li>
+                <li><a href="#">青春文学</a></li>
+            </ol>
+        </h3>
+        <div class="clear box">
+            <!-- 左 -->
+            <aside class="float-left">
+                <!-- 左上 -->
+                <a href="#" class="img">
+                    <img src="index/images/floor4-img1.jpg" alt="">
+                </a>
+                <!-- 左下 -->
+                <div>
+                    <h4>小说排行榜</h4>
+                    <ol>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">白蛇</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">东方快车谋杀案</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">无人生还-阿加莎.克里斯蒂作品-10</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">我未来次子关于我的回忆</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">百年孤独</a>
+                        </li>
+                    </ol>
+                </div>
+            </aside>
+            <!-- 中 -->
+            <div class="float-left">
+                <div class="more"><a href="#">查看更多</a></div>
+                <article class="te">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <!-- 右 -->
+            <aside class="float-right">
+                <div>
+                    <ul>
+                        <li class="te">
+                            <a href="#">
+                                <img src="index/images/floor4-img3-1.jpg" alt="">
+                                <span>></span>
+                                <b>祝勇编-外国散文精品文库</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-2.jpg" alt="">
+                                <span>></span>
+                                <b>贾平凹作品集·精装毛边纪念版</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-3.jpg" alt="">
+                                <span>></span>
+                                <b>渡边淳一作品集</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-4.jpg" alt="">
+                                <span>></span>
+                                <b>上海辞书出版社 文学鉴赏辞典</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-5.jpg" alt="">
+                                <span>></span>
+                                <b>古代小说文献分类简史</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-6.jpg" alt="">
+                                <span>></span>
+                                <b>名诗珍藏系列</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-7.jpg" alt="">
+                                <span>></span>
+                                <b>亨利·大卫·梭罗作品集</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-8.jpg" alt="">
+                                <span>></span>
+                                <b>古典推理文库</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 右下 -->
+                <a href="#" class="bottom">
+                    <img src="index/images/floor4-img3-last.jpg" alt="">
+                </a>
+            </aside>
+        </div>
+    </section>
+
+    <!-- 五楼 -->
+    <section id="floor-5" class="title title2">
+        <h3 class="clear">
+            <div class="float-left"><a href="#">社科图书&nbsp;&gt;</a></div>
+            <ol class="float-left">
+                <li><a href="#" class="display">历史</a></li>
+                <li><a href="#">传记</a></li>
+                <li><a href="#">哲学宗教</a></li>
+                <li><a href="#">政治军事</a></li>
+            </ol>
+        </h3>
+        <div class="clear box">
+            <!-- 左 -->
+            <aside class="float-left">
+                <!-- 左上 -->
+                <a href="#" class="img">
+                    <img src="index/images/floor4-img1.jpg" alt="">
+                </a>
+                <!-- 左下 -->
+                <div>
+                    <h4>小说排行榜</h4>
+                    <ol>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">白蛇</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">东方快车谋杀案</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">无人生还-阿加莎.克里斯蒂作品-10</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">我未来次子关于我的回忆</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">百年孤独</a>
+                        </li>
+                    </ol>
+                </div>
+            </aside>
+            <!-- 中 -->
+            <div class="float-left">
+                <div class="more"><a href="#">查看更多</a></div>
+                <article class="te">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <!-- 右 -->
+            <aside class="float-right">
+                <div>
+                    <ul>
+                        <li class="te">
+                            <a href="#">
+                                <img src="index/images/floor4-img3-1.jpg" alt="">
+                                <span>></span>
+                                <b>祝勇编-外国散文精品文库</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-2.jpg" alt="">
+                                <span>></span>
+                                <b>贾平凹作品集·精装毛边纪念版</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-3.jpg" alt="">
+                                <span>></span>
+                                <b>渡边淳一作品集</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-4.jpg" alt="">
+                                <span>></span>
+                                <b>上海辞书出版社 文学鉴赏辞典</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-5.jpg" alt="">
+                                <span>></span>
+                                <b>古代小说文献分类简史</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-6.jpg" alt="">
+                                <span>></span>
+                                <b>名诗珍藏系列</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-7.jpg" alt="">
+                                <span>></span>
+                                <b>亨利·大卫·梭罗作品集</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-8.jpg" alt="">
+                                <span>></span>
+                                <b>古典推理文库</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 右下 -->
+                <a href="#" class="bottom">
+                    <img src="index/images/floor4-img3-last.jpg" alt="">
+                </a>
+            </aside>
+        </div>
+    </section>
+
+    <!-- 六楼 -->
+    <section id="floor-6" class="title title2">
+        <h3 class="clear">
+            <div class="float-left"><a href="#">儿童图书&nbsp;&gt;</a></div>
+            <ol class="float-left">
+                <li><a href="#" class="display">中国儿童文学</a></li>
+                <li><a href="#">外国儿童文学</a></li>
+                <li><a href="#">绘本</a></li>
+            </ol>
+        </h3>
+        <div class="clear box">
+            <!-- 左 -->
+            <aside class="float-left">
+                <!-- 左上 -->
+                <a href="#" class="img">
+                    <img src="index/images/floor4-img1.jpg" alt="">
+                </a>
+                <!-- 左下 -->
+                <div>
+                    <h4>小说排行榜</h4>
+                    <ol>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">白蛇</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">东方快车谋杀案</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">无人生还-阿加莎.克里斯蒂作品-10</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">我未来次子关于我的回忆</a>
+                        </li>
+                        <li>
+                            <span>&gt;</span>
+                            <a href="#">百年孤独</a>
+                        </li>
+                    </ol>
+                </div>
+            </aside>
+            <!-- 中 -->
+            <div class="float-left">
+                <div class="more"><a href="#">查看更多</a></div>
+                <article class="te">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <!-- 右 -->
+            <aside class="float-right">
+                <div>
+                    <ul>
+                        <li class="te">
+                            <a href="#">
+                                <img src="index/images/floor4-img3-1.jpg" alt="">
+                                <span>></span>
+                                <b>祝勇编-外国散文精品文库</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-2.jpg" alt="">
+                                <span>></span>
+                                <b>贾平凹作品集·精装毛边纪念版</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-3.jpg" alt="">
+                                <span>></span>
+                                <b>渡边淳一作品集</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-4.jpg" alt="">
+                                <span>></span>
+                                <b>上海辞书出版社 文学鉴赏辞典</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-5.jpg" alt="">
+                                <span>></span>
+                                <b>古代小说文献分类简史</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-6.jpg" alt="">
+                                <span>></span>
+                                <b>名诗珍藏系列</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-7.jpg" alt="">
+                                <span>></span>
+                                <b>亨利·大卫·梭罗作品集</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-8.jpg" alt="">
+                                <span>></span>
+                                <b>古典推理文库</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 右下 -->
+                <a href="#" class="bottom">
+                    <img src="index/images/floor4-img3-last.jpg" alt="">
+                </a>
+            </aside>
+        </div>
+    </section>
+
+    <!-- 七楼 -->
+    <section id="floor-7" class="title title2">
+        <h3 class="clear">
+            <ol class="float-left">
+                <li><a href="#" class="display">艺术</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">旅游</a></li>
+                <li><a href="#">保健</a></li>
+                <li><a href="#">孕产/育儿</a></li>
+                <li><a href="#">外语</a></li>
+                <li><a href="#">辅导</a></li>
+                <li><a href="#">计算机</a></li>
+            </ol>
+        </h3>
+        <div class="clear box">
+            <!-- 中 -->
+            <div class="float-left">
+                <article class="te">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-1.jpg" alt="">
+                                <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                <p>
+                                    <s>￥9.0</s>
+                                    <del>￥25.0</del>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-6.jpg" alt="">
+                                <h6>长篇小说:汤岛之恋</h6>
+                                <p>泉镜花</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-7.jpg" alt="">
+                                <h6>庐山隐士</h6>
+                                <p>蒋一谈</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-8.jpg" alt="">
+                                <h6>大清名妓季蔼如/高阳作品集</h6>
+                                <p>高阳 著</p>
+                                <p><s>￥13.4</s><del>￥29.8</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-3.jpg" alt="">
+                                <h6>简.爱</h6>
+                                <p>夏洛蒂.勃朗特</p>
+                                <p><s>￥19.4</s><del>￥45.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-4.jpg" alt="">
+                                <h6>古代的夜晚-(全二册)</h6>
+                                <p>梅勒</p>
+                                <p><s>￥34.3</s><del>￥70.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-2.jpg" alt="">
+                                <h6>理智与情感</h6>
+                                <p>奥斯汀</p>
+                                <p><s>￥13.8</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img2-5.jpg" alt="">
+                                <h6>巴巴里海岸</h6>
+                                <p>梅勒</p>
+                                <p><s>￥15.7</s><del>￥32.0</del></p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <!-- 右 -->
+            <aside class="float-right">
+                <div>
+                    <ul>
+                        <li class="te">
+                            <a href="#">
+                                <img src="index/images/floor4-img3-1.jpg" alt="">
+                                <span>></span>
+                                <b>祝勇编-外国散文精品文库</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-2.jpg" alt="">
+                                <span>></span>
+                                <b>贾平凹作品集·精装毛边纪念版</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-3.jpg" alt="">
+                                <span>></span>
+                                <b>渡边淳一作品集</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-4.jpg" alt="">
+                                <span>></span>
+                                <b>上海辞书出版社 文学鉴赏辞典</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-5.jpg" alt="">
+                                <span>></span>
+                                <b>古代小说文献分类简史</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="index/images/floor4-img3-8.jpg" alt="">
+                                <span>></span>
+                                <b>古典推理文库</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- 八楼 -->
+    <section id="floor-8" class="title title1 clear title2">
+        <div class="float-left">
+            <h3 class="clear">
+                <a href="#" class="float-left">
+                    <span class="float-left">出版社专区 &gt;</span>
+                </a>
+            </h3>
+            <div class="f8-box clear">
+                <!-- 出版社 -->
+                <ol class="float-left">
+                    <li class="te">
+                        <a href="#" class="clear">
+                            <span class="float-left">人民文学出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">作家出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">中华书局</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">现代出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">广西师范大学出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">人民出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">青岛出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">长江文艺出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">河北教育出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="clear">
+                            <span class="float-left">云南人民出版社</span>
+                            <i class="float-right">></i>
+                        </a>
+                    </li>
+                </ol>
+                <!-- 展示 -->
+                <div class="float-right display">
+                    <!-- 出版社介绍 -->
+                    <article class="te">
+                        <div class="top">
+                            <h6><a href="#">人民文学出版社</a></h6>
+                            <p>人民文学出版社1951年3月成立于北京，系国家级专业文学出版机构，现为中国出版集团公司成员单位。该社着力组织出版社当代文学作品，中国当代作家的代表作大多由该社出版，出版物以高质量赢得广泛称赞，已形成了高品位，高质量的“人文版”图书系列，被称赞“代表中国文学出版社的最高水平”。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-6.jpg" alt="">
+                                            <h6>长篇小说:汤岛之恋</h6>
+                                            <p>泉镜花</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-8.jpg" alt="">
+                                            <h6>大清名妓季蔼如/高阳作品集</h6>
+                                            <p>高阳 著</p>
+                                            <p><s>￥13.4</s><del>￥29.8</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">作家出版社</a></h6>
+                            <p>作家出版社是中国作家协会所属国家级大型文学出版社，自1953年建社以来，出版了大量的优秀文学图书，其中有部分作品先后被介绍到海外，在国内外产生了广泛影响。作家出版社以中国文学的主流作家为出版依托，出版了大量当代名家名作，巴金、王蒙、季羡林、铁凝、贾平凹、二月河、王安忆、莫言、张平、张抗抗、周梅森、余华、张承志、从维熙、金庸、董桥、周汝昌、张中行、汪曾祺、黄苗子、黄永玉、冯骥才、周国平、韩少功、毕飞宇、池莉、毕淑敏、蒋子龙、张贤亮、张炜、李国文、曹文轩、魏明伦、韩寒、张悦然等都有代表作品在作家出版社出版。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-2.jpg" alt="">
+                                            <h6>理智与情感</h6>
+                                            <p>奥斯汀</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-6.jpg" alt="">
+                                            <h6>长篇小说:汤岛之恋</h6>
+                                            <p>泉镜花</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-8.jpg" alt="">
+                                            <h6>大清名妓季蔼如/高阳作品集</h6>
+                                            <p>高阳 著</p>
+                                            <p><s>￥13.4</s><del>￥29.8</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">中华书局</a></h6>
+                            <p>中华书局于1912年元旦由陆费逵先生在上海创办，是中国近现代最悠久的出版社之一。百馀年来，中华书局恪守传承文明职责，专注于优秀传统文化出版，在海内外享有盛誉。特别是从1958年至1978年，历经二十年时间，组织整理、出版的“二十四史”及《清史稿》点校本，被公认为新中国最伟大的古籍整理工程。相继编辑出版了《全上古三代秦汉三国六朝文》《先秦汉魏晋南北朝诗》《全唐文》《全唐诗》《全宋词》《古本小说丛刊》《甲骨文合集》《资治通鉴》《文苑英华》《太平御览》等一大批古代文史哲经典文献，在学术界、读书界、教育界有着广泛的影响。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-2.jpg" alt="">
+                                            <h6>理智与情感</h6>
+                                            <p>奥斯汀</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-8.jpg" alt="">
+                                            <h6>大清名妓季蔼如/高阳作品集</h6>
+                                            <p>高阳 著</p>
+                                            <p><s>￥13.4</s><del>￥29.8</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">现代出版社</a></h6>
+                            <p>现代出版社成立于1982年，隶属于中国出版行业国家队——中国出版集团，被新闻出版总署评为“全国良好出版社”。现代出版社有限公司秉承中国出版集团“固本求新，弘文致远”的整体出版理念，结合自身出版产品特色，先后出版了一大批广受读者喜爱的好书，形成了以文学、大众社科、少儿、音乐为主要出版方向的产品线。目前，现代出版社有限公司年出版图书600余种，其中引进和输出版权图书200余种。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-2.jpg" alt="">
+                                            <h6>理智与情感</h6>
+                                            <p>奥斯汀</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-6.jpg" alt="">
+                                            <h6>长篇小说:汤岛之恋</h6>
+                                            <p>泉镜花</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">广西师范大学出版社</a></h6>
+                            <p>广西师范大学出版社履践自身文化使命，出版了一大批高水平的学术人文图书，在海内外学术文化界享有盛誉，如“理想国”译丛、“温故”系列、影像阅读系列、“电影馆”系列、海外学人名著系列、大学名师讲课实录系列、《中国思想学术史》、《西方社会史》以及钱穆、何炳棣、劳思光、杜维明、李欧梵、黄仁 宇、许倬云、余英时、白先勇、王尔敏、孙隆基、傅斯年、钱存训、木心、梁羽生、朱光潜、王世襄、叶澜、陈丹青、钱理群、李泽厚、韦伯、房龙、纪德、雅尔卡、尼尔·波兹曼、瓦尔特·本雅明等一大批中外学者的著名著作，都是畅销多年的优秀图书。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-2.jpg" alt="">
+                                            <h6>理智与情感</h6>
+                                            <p>奥斯汀</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-6.jpg" alt="">
+                                            <h6>长篇小说:汤岛之恋</h6>
+                                            <p>泉镜花</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-8.jpg" alt="">
+                                            <h6>大清名妓季蔼如/高阳作品集</h6>
+                                            <p>高阳 著</p>
+                                            <p><s>￥13.4</s><del>￥29.8</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">人民出版社</a></h6>
+                            <p>人民出版社在哲学社会科学领域，出版了《世界通史》、《中国通史》、《中国学术通史》、《中国民俗史》、《哲学史家文库》、《中国哲学史新编》、《柏拉图全集》等一大批学术精品著作，奠定了人民出版社在哲学社会科学领域的重要地位。</p>
+                            <p>进入21世纪以来，人民出版社年平均出版图书已达千种以上，越来越充分地满足了广大读者的阅读需要。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-6.jpg" alt="">
+                                            <h6>长篇小说:汤岛之恋</h6>
+                                            <p>泉镜花</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-2.jpg" alt="">
+                                            <h6>理智与情感</h6>
+                                            <p>奥斯汀</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">青岛出版社</a></h6>
+                            <p>青岛出版社成立于1987年1月12日，是一家城市出版社，坐落在黄海之滨的青岛，以出版大众健康、美食菜谱、医学保健、少儿成长、社科人文、教材教辅类图书为重，并出版7种期刊和一份日报，在出版界素来追求“社风正派、书品高洁”之境界。据北京开卷的统计数据，2007年，青岛出版社图书在中国图书零售市场上综合排名第32位。其中，生活类图书排名全国第一，大众健康类图书稳居全国前3位，美食类图书稳居全国前5位。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-2.jpg" alt="">
+                                            <h6>理智与情感</h6>
+                                            <p>奥斯汀</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-8.jpg" alt="">
+                                            <h6>大清名妓季蔼如/高阳作品集</h6>
+                                            <p>高阳 著</p>
+                                            <p><s>￥13.4</s><del>￥29.8</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">长江文艺出版社</a></h6>
+                            <p>长江文艺出版社成立于1955年，已出版图书5000余种，与境外出版机构达成版权贸易200余种，发行网络遍布全国。长江文艺出版社秉持“大众文化、精英趣味、百姓情怀”的出版理念，为广大读者及出版界提供品种丰富，文化含量高的优质图书，长期以来在全国文学类图书零售市场占有率均排名第一。活跃于中国文坛的知名作家、诗人、学者，如苏童、余华、余秋雨、二月河、方方、池莉、刘震云、王蒙、王小波、顾城、海子、舒婷、严歌苓、陈忠实、周国平、毕淑敏、刘墉等人的第一本著作或力作均由长江文艺出版社出版。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-6.jpg" alt="">
+                                            <h6>长篇小说:汤岛之恋</h6>
+                                            <p>泉镜花</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-2.jpg" alt="">
+                                            <h6>理智与情感</h6>
+                                            <p>奥斯汀</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">河北教育出版社</a></h6>
+                            <p>河北教育出版社成立于1986年12月。经过20多年的发展，现已成长为下辖6个职能部门、9个编辑室，以及河北人文网、快乐教育网、河北教育出版社局域网等3家网站，《快乐作文》杂志社、《21世纪中学生作文》杂志社、《快乐英语》杂志社等3家杂志社，有员工300余名，年出版图书逾千种，所出图书涵盖文化、教育、文学、艺术、社科、儿童、辞书等几大门类，年销售码洋逾2亿、总资产过3亿的品牌大社，成为广大教育工作者的精神家园。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-6.jpg" alt="">
+                                            <h6>长篇小说:汤岛之恋</h6>
+                                            <p>泉镜花</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-8.jpg" alt="">
+                                            <h6>大清名妓季蔼如/高阳作品集</h6>
+                                            <p>高阳 著</p>
+                                            <p><s>￥13.4</s><del>￥29.8</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="top">
+                            <h6><a href="#">云南人民出版社</a></h6>
+                            <p>云南人民出版社成立于1950年12月25日，是云南省唯一一家综合性出版社，图书出版范围包括社会科学、历史、文化、文学、艺术、古籍、工具书、摄影、教辅等方面以及音像电子出版物和网络出版社物。九十年代以来，云南人民出版社共有16种155本图书荣获国家图书三大奖。出版了《纳西东巴古籍译注全集》（100卷）、《中华民族的形成与凝聚新论》《云天红霄——人民卫士方红霄》《哲学理论创新丛书》（9种）、《姜亮夫全集》（24卷）、《我们的连队》《殷墟花园庄东地甲骨》等有影响的图书，形成了云南人民出版社的品牌优势。</p>
+                        </div>
+                        <!-- 书籍展示 -->
+                        <div class="bottom box clear">
+                            <div class="float-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-8.jpg" alt="">
+                                            <h6>大清名妓季蔼如/高阳作品集</h6>
+                                            <p>高阳 著</p>
+                                            <p><s>￥13.4</s><del>￥29.8</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-7.jpg" alt="">
+                                            <h6>庐山隐士</h6>
+                                            <p>蒋一谈</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-2.jpg" alt="">
+                                            <h6>理智与情感</h6>
+                                            <p>奥斯汀</p>
+                                            <p><s>￥13.8</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="index/images/floor4-img2-5.jpg" alt="">
+                                            <h6>巴巴里海岸</h6>
+                                            <p>梅勒</p>
+                                            <p><s>￥15.7</s><del>￥32.0</del></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <!-- 作者展示 -->
+        <aside class="float-right">
+            <h3 class="clear">
+                <span class="float-left">人气作者</span>
+            </h3>
+            <!-- 书籍展示 -->
+            <div class="bottom-box">
+                <p class="clear">
+                    <a href="#" class="float-left">沈从文</a>
+                </p>
+                <p>
+                    <a href="#">他的文字表现出“优美、健康、自然，而又不悖乎人性的人生形式”，如同河流缓缓淌出。</a>
+                </p>
+                <div class="bottom box clear">
+                    <div class="float-left">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="index/images/floor4-img2-1.jpg" alt="">
+                                    <h6>聚会/英语小说至高荣誉-布克奖</h6>
+                                    <p>（爱尔兰）安·恩莱特　著，夏欣茁　译</p>
+                                    <p>
+                                        <s>￥9.0</s>
+                                        <del>￥25.0</del>
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 其他作者 -->
+            <div class="others">
+                <a href="#">托尔斯泰</a>
+                <span>|</span>
+                <a href="#">东野圭吾</a>
+                <span>|</span>
+                <a href="#">胡适</a>
+                <span>|</span>
+                <a href="#">沈石溪</a>
+                <span>|</span>
+                <a href="#">王蒙</a>
+            </div>
+        </aside>
+    </section>
+    </main>
+
+    <!-- 底部 -->
+    <footer id="footer">
+        <!-- 上 -->
+        <section class="f-top w1200 layout clear">
+            <!-- 左 -->
+            <div class="float-left">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">购物流程演示</a></dd>
+                    <dd><a href="#">注册用户 更改注册信息</a></dd>
+                    <dd><a href="#">购物常见问题</a></dd>
+                    <dd><a href="#">关于特价书的常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>购买问题</dt>
+                    <dd><a href="#">订单跟踪</a></dd>
+                    <dd><a href="#">付款方式</a></dd>
+                    <dd><a href="#">账户余额</a></dd>
+                    <dd><a href="#">申请提现</a></dd>
+                    <dd><a href="#">配送方式及费用、范围</a></dd>
+                    <dd><a href="#">集团购买</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换货流程</a></dd>
+                    <dd><a href="#">投诉与建议</a></dd>
+                    <dd><a href="#" style="color: #e00;">在线客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>特色服务</dt>
+                    <dd><a href="#">会员等级与积分</a></dd>
+                    <dd><a href="#">中图书馨卡</a></dd>
+                    <dd><a href="#">邮件订阅</a></dd>
+                    <dd><a href="#" style="color: #e00;">邀请好友购买返5元</a></dd>
+                </dl>
+                <dl style="width: 134px;border-right: 1px solid #dadada;">
+                    <dt>其他信息</dt>
+                    <dd><a href="#">本站简介</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">招聘英才</a></dd>
+                    <dd><a href="#">网站联盟</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                </dl>
+            </div>
+            <!-- 右 -->
+            <aside class="float-right">
+                <dl>
+                    <dt>微信公众号</dt>
+                    <dd><img src="index/images/weixinerweima.jpg" alt=""></dd>
+                </dl>
+                <dl>
+                    <dt>中图网微博</dt>
+                    <dd><img src="index/images/weiboerweima.jpg" alt=""></dd>
+                </dl>
+                <dl>
+                    <dt>手机中图</dt>
+                    <dd><img src="index/images/phoneerweima.jpg" alt=""></dd>
+                </dl>
+            </aside>
+        </section>
+        <!-- 中 -->
+        <section class="f-mid w1200 layout">
+            <dl>
+                <dt>友情链接：</dt>
+                <dd><a href="#">荣宝斋</a></dd>
+                <dd><a href="#">国家公务员考试网</a></dd>
+                <dd><a href="#">孔夫子图书网</a></dd>
+                <dd><a href="#">互动百科</a></dd>
+                <dd><a href="#">互动吧</a></dd>
+                <dd><a href="#">365小说网</a></dd>
+                <dd><a href="#">琅琅比价网</a></dd>
+                <dd><a href="#">邮票</a></dd>
+                <dd><a href="#">汉语大辞典</a></dd>
+                <dd><a href="#">北京律师</a></dd>
+                <dd><a href="#">事业单位招聘考试网</a></dd>
+                <dd><a href="#">考研网</a></dd>
+            </dl>
+        </section>
+        <section class="f-bottom w1200 layout">
+            <img src="index/images/f-bottom.jpg" alt="" srcset="">
+        </section>
+    </footer>
+
+    <!-- 底标 -->
+    <section id="footer-bar" class="w1200 clear">
+        <div class="float-left">
+            <a href=""><img src="index/images/chengxin.jpg" alt=""></a>
+            <a href=""><img src="index/images/ectrust.gif" alt=""></a>
+        </div>
+        <div class="float-right">
+            <p>
+                <a href="#">经营许可证编号：京ICP备09013606号-3</a>
+                <a href="#">京信市监发[2002]122号</a>
+                <span>海淀公安分局备案编号：1101083394</span>
+            </p>
+            <p><a href="#">营业执照</a><a href="#">出版物经营许可证</a></p>
+        </div>
+    </section>
+</body>
+<script src="libs/require.js" data-main="index/js/index"></script>
+</html>

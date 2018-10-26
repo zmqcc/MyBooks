@@ -1,0 +1,31 @@
+main.layout{background: #fff;padding: 60px 125px 210px;box-sizing: border-box;margin-top: 10px;}
+main a:hover,main s:hover{text-decoration: underline;}
+
+section#display{width: 800px;height: 400px;position: fixed;left: 0;right: 0;top: 0;bottom: 0;margin: auto;background: #abc;z-index: 1;color: #fff;text-align: center;line-height: 400px;font-size: 50px;opacity: .7;display: none;}
+
+/* type:text */
+main>div{margin-top: 50px;padding: 0 84px;}
+main>div>*{line-height: 42px;display: flex;margin-bottom: 30px;}
+main>div p span{font-size: 16px;width: 80px;text-align: right;margin-right: 22px;}
+main>div p input{width: 300px;border:1px solid #ddd;border-radius: 5px;padding-left: 10px;padding-right: 20px;}
+
+/* 验证码 */
+main>div p.justify{margin-bottom: 52px;}
+main>div p.justify input{width: 150px;margin-right: 10px;}
+main>div p.justify b{width: 90px;border: 1px solid #ddd;border-radius: 5px;margin-right: 10px;cursor: pointer;text-align: center;font-size: 20px;font-family: "consolas";}
+main>div p.justify s{font-size: 16px;color: #1c51a1;cursor: pointer;}
+main>div p.justify s:hover{text-decoration: underline;color: #e00;}
+
+/* 按钮 */
+main>div p.justify~*{justify-content: center;}
+main>div p.btn input{width: 380px;line-height: 50px;background: #e00;color: #fff;border: 0;font-size: 16px;cursor: pointer;}
+
+/* 小X */
+p.pos{position: relative;}
+p.pos del{position: absolute;width: 13px;height: 13px;background: url(../images/registloginSprit.png) no-repeat top left;top:0; bottom: 0;margin: auto;left: 414px;cursor: pointer;display: none;}
+p.pos del:hover{background-position-x: -25px;}
+p.pos.justify del{left:264px;}
+
+p.pos u{position: absolute;line-height: 30px;bottom: -30px;left: 102px;display: none;color: red;}
+
+p.pos input:focus{border-color: #999;}

@@ -1,0 +1,8 @@
+main h4{line-height: 24px;font-size: 22px;text-indent: 12px;border-left: 4px solid #e00;}
+
+/* 链接 */
+main>div p.btn~div p{width: 380px;display: flex;justify-content: space-between;font-size: 14px;}
+main>div a s:last-child{margin-bottom: 0;line-height: 30px;}
+main>div :last-child i{width: 30px;height: 30px;background: url(../images/registloginSprit.png) no-repeat;margin-right: 10px;}
+main>div :last-child a:first-child i{background-position: 0 -20px;}
+main>div :last-child a:last-child i{background-position: -32px -20px;}

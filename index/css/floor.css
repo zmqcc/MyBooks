@@ -1,0 +1,7 @@
+#floor{position: fixed;right: 0;top: 50%;margin-top: -140px;z-index: 11;}
+#floor ul{background: #999;border-radius: 5px 0 0 5px;line-height: 34px;color: #fff;cursor: pointer;font-size: 20px;width: 34px;}
+#floor ul li{position: relative;left: 0;height: 34px;text-indent: 6px;border-bottom: 1px solid #aaa;}
+#floor ul li:last-child{border-bottom: 0;}
+#floor ul li span{position: absolute;white-space: nowrap;left: 34px;background: #e00;top: 0;}
+#floor ul li:first-child span{border-radius: 5px 0 0 0;}
+#floor ul li:last-child span{border-radius: 0 0 0 5px;}

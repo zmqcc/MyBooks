@@ -1,0 +1,23 @@
+@import url(../../libs/public.css);
+@import url(topBar.css);
+@import url(activity.css);
+@import url(floor.css);
+@import url(search.css);
+@import url(nav.css);
+@import url(floor1.css);
+@import url(floor2_3.css);
+@import url(floor2.css);
+@import url(floor3.css);
+@import url(floor4_5_6_7.css);
+@import url(floor4.css);
+@import url(floor5.css);
+@import url(floor6.css);
+@import url(floor7.css);
+@import url(floor8.css);
+@import url(footer.css);
+@import url(footerBar.css);
+
+/* 页面宽度1200 */
+.w1200{width: 1200px;}
+/* a标签滑过颜色 */
+a:hover{color:red;text-decoration:underline;}

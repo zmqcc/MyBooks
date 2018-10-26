@@ -1,0 +1,9 @@
+/* logo */
+#top-bar{background: #fff;border-bottom: 2px solid #e00;}
+#top-bar .logo{padding:22px 0;}
+#top-bar .logo a{display: block;width: 154px;height: 48px;background: url(../images/loginLogo.jpg) no-repeat center;}
+
+/* 右 */
+#top-bar .top-bar-r{width: 420px;height: 36px;padding: 28px 0;background: url(../images/promiseAd.png) no-repeat left;line-height: 36px;}
+#top-bar .top-bar-r span{margin-left: 46px;margin-right: 28px;}
+#top-bar .top-bar-r span:last-child{margin-right: 0;}

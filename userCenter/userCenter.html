@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>用户中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/list.css" />  
+</head>
+<body>
+    <!-- 提示信息 -->
+    <section id="display"></section>
+
+    <!-- 顶栏 -->
+    <header id="top-bar">
+        <div class="layout w1200 clear">
+            <!-- 左 -->
+            <div class="top-bar-l float-left">
+                <b>欢迎光临我的图书网&nbsp;请</b>
+                <a href="../login_register/login.html" class="login">登录</a>
+                <span>|</span>
+                <a href="../login_register/register.html" class="regist">注册</a>
+            </div>
+            <!-- 右 -->
+            <div class="top-bar-r float-right">
+                <ul class="clear">
+                    <li class="float-left"><a href="../shopCar/shopCar.html">购物车</a><i>0</i></li>
+                    <li class="float-left"><a href="#">我的订单</a></li>
+                    <li class="float-left">
+                        <a>我的账户</a>
+                        <ol>
+                            <li>
+                                <a>我的收藏夹</a>
+                                <a>账户余额</a>
+                            </li>   
+                            <li>
+                                <a>我的优惠券</a>
+                                <a>我的积分</a>
+                            </li>
+                            <li>
+                                <a>收货地址</a>
+                                <a>我的书评</a>
+                            </li>
+                            <li>
+                                <a>我的消息</a>
+                                <a>积分换券</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="float-left"><a href="#">帮助中心</a></li>
+                    <li class="float-left">
+                        <a href="#">手机我图</a>
+                        <ol>
+                            <li>
+                                <img src="../index/images/weiboerweima.jpg" alt="">
+                                <div>
+                                    <h6>扫一扫</h6>
+                                    <p>关注中图网<br>官方微博</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../index/images/weixinerweima.jpg" alt="">
+                                <div>
+                                    <h6>扫一扫</h6>
+                                    <p>关注中图网<br>微信公众号</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../index/images/phoneerweima.jpg" alt="">
+                                <div>
+                                    <h6>手机中图</h6>
+                                    <p>进入中图网<br>手机触屏版</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- 搜索栏 -->
+    <div id="search" class="w1200 clear layout">
+        <!-- logo -->
+        <div class="logo float-left">
+            <h1>我的图书网</h1>
+            <a href="../index.html"></a>
+        </div>
+        <!-- 搜索框 -->
+        <div class="search float-left">
+            <div class="clear">
+                <div class="search-bar float-left">
+                    <input type="text" name="" class=" float-left" value="嗜好的极致:癖理由" />
+                    <span class="float-left">搜索全部</span>
+                    <!-- 下拉框 -->
+                    <ol class="dorp-up">
+                        <li class="on">搜索全部</li>
+                        <li>书名</li>
+                        <li>作者</li>
+                        <li>出版社</li>
+                        <li>ISBN</li>
+                    </ol>
+                    <input type="button" value="搜索" class=" float-left" />
+                </div>
+                <!-- 高级搜索 -->
+                <a href="#" class="pro-search float-left">高级搜索</a>
+            </div>
+            <!-- 关键字 -->
+            <p class="keys">
+                <a href="#">中国文库</a>
+                <a href="#">春树的诗</a>
+                <a href="#">假如真有时光机</a>
+                <a href="#">汉语词汇与华夏文化</a>
+            </p>
+        </div>
+        <!-- 信息板 -->
+        <div class="info-box float-right">
+            <div><a href="#">新版注册登陆上线</a></div>
+            <div><a href="#">暂停开具订单发票</a></div>
+        </div>
+    </div>
+    
+    <!-- 导航栏 -->
+    <nav id="book-nav">
+        <div class="w1200 layout clear">
+            <ul class="float-left">
+                <li class="float-left"><a href="../index.html">首页</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">淘书团</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">畅销榜</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">新上架</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">9块9包邮</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">出版社浏览</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">闲情雅趣</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">批发</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="w1200 layout clear">
+        <section id="list">
+            <p class="pageLinks">
+                <a href="../index.html">我的图书网</a>
+                <span>&gt;</span>
+                <a href="../goodlist/goodlist.html">新上架图书精选</a>
+                <span>&gt;</span>
+                <a href="userCenter.html">我的账户</a>
+            </p>
+
+            <div class="box">
+                <aside>
+                    <img src="images/userimg.jpg" alt="" >
+                    <p>我的账户</p>
+                </aside>
+                <div class="detail">
+                    <h3>欢迎光临，尊敬的会员&nbsp;<i>123</i></h3>
+                    <p>会员级别：1</p>
+                    <p>会员积分：100</p>
+                    <p>交易提醒：<a href="../shopCar/shopCar.html">待支付订单<i>(0)</i></a></p>
+                    <p><span>注销登录</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部 -->
+    <footer id="footer">
+        <!-- 上 -->
+        <section class="f-top w1200 layout clear">
+            <!-- 左 -->
+            <div class="float-left">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">购物流程演示</a></dd>
+                    <dd><a href="#">注册用户 更改注册信息</a></dd>
+                    <dd><a href="#">购物常见问题</a></dd>
+                    <dd><a href="#">关于特价书的常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>购买问题</dt>
+                    <dd><a href="#">订单跟踪</a></dd>
+                    <dd><a href="#">付款方式</a></dd>
+                    <dd><a href="#">账户余额</a></dd>
+                    <dd><a href="#">申请提现</a></dd>
+                    <dd><a href="#">配送方式及费用、范围</a></dd>
+                    <dd><a href="#">集团购买</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换货流程</a></dd>
+                    <dd><a href="#">投诉与建议</a></dd>
+                    <dd><a href="#" style="color: #e00;">在线客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>特色服务</dt>
+                    <dd><a href="#">会员等级与积分</a></dd>
+                    <dd><a href="#">中图书馨卡</a></dd>
+                    <dd><a href="#">邮件订阅</a></dd>
+                    <dd><a href="#" style="color: #e00;">邀请好友购买返5元</a></dd>
+                </dl>
+                <dl style="width: 134px;border-right: 1px solid #dadada;">
+                    <dt>其他信息</dt>
+                    <dd><a href="#">本站简介</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">招聘英才</a></dd>
+                    <dd><a href="#">网站联盟</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                </dl>
+            </div>
+            <!-- 右 -->
+            <aside class="float-right">
+                <dl>
+                    <dt>微信公众号</dt>
+                    <dd><img src="../index/images/weixinerweima.jpg" alt=""></dd>
+                </dl>
+                <dl>
+                    <dt>中图网微博</dt>
+                    <dd><img src="../index/images/weiboerweima.jpg" alt=""></dd>
+                </dl>
+                <dl>
+                    <dt>手机中图</dt>
+                    <dd><img src="../index/images/phoneerweima.jpg" alt=""></dd>
+                </dl>
+            </aside>
+        </section>
+        <!-- 中 -->
+        <section class="f-mid w1200 layout">
+            <dl>
+                <dt>友情链接：</dt>
+                <dd><a href="#">荣宝斋</a></dd>
+                <dd><a href="#">国家公务员考试网</a></dd>
+                <dd><a href="#">孔夫子图书网</a></dd>
+                <dd><a href="#">互动百科</a></dd>
+                <dd><a href="#">互动吧</a></dd>
+                <dd><a href="#">365小说网</a></dd>
+                <dd><a href="#">琅琅比价网</a></dd>
+                <dd><a href="#">邮票</a></dd>
+                <dd><a href="#">汉语大辞典</a></dd>
+                <dd><a href="#">北京律师</a></dd>
+                <dd><a href="#">事业单位招聘考试网</a></dd>
+                <dd><a href="#">考研网</a></dd>
+            </dl>
+        </section>
+        <section class="f-bottom w1200 layout">
+            <img src="../index/images/f-bottom.jpg" alt="" srcset="">
+        </section>
+    </footer>
+
+    <!-- 底标 -->
+    <section id="footer-bar" class="w1200 clear">
+        <div class="float-left">
+            <a href=""><img src="../index/images/chengxin.jpg" alt=""></a>
+            <a href=""><img src="../index/images/ectrust.gif" alt=""></a>
+        </div>
+        <div class="float-right">
+            <p>
+                <a href="#">经营许可证编号：京ICP备09013606号-3</a>
+                <a href="#">京信市监发[2002]122号</a>
+                <span>海淀公安分局备案编号：1101083394</span>
+            </p>
+            <p><a href="#">营业执照</a><a href="#">出版物经营许可证</a></p>
+        </div>
+    </section>
+</body>
+<script src="../libs/require.js" data-main="js/userCenter"></script>
+</html>

@@ -1,0 +1,29 @@
+/* 搜索栏 */
+#search{height: 100px;}
+/* logo */
+#search .logo{margin-top:20px;}
+#search .logo a{display: block;width: 200px;height: 54px;background: url(../images/logo.png) no-repeat center;}
+
+/* 搜索框 */
+#search .search{margin: 20px 15px 0 75px;}
+#search .search .search-bar{border:2px solid #e00;position: relative;}
+#search .search .search-bar>*{display: block;line-height: 36px;font-size: 12px;}
+#search .search .search-bar input[type="text"]{width:430px;padding:0 1em;color:#666;box-sizing: border-box;}
+#search .search .search-bar span{width: 82px;text-align: center;border-left: 1px solid #ddd;color:#999;}
+/* 下拉框 */
+#search .search .search-bar ol{position: absolute;left: 430px;background: #fff;top: 34px;width: 81px;border-left: 1px solid #ddd;border-right: 1px solid #ddd;z-index: 10;display: none;}
+#search .search .search-bar ol li{line-height: 24px;text-indent: 1em;color:#999;cursor: pointer;}
+#search .search .search-bar ol li.on{background: #f5f5f5;color: #e00;}
+
+#search .search .search-bar input[type="button"]{width:98px;background: #e00;color: #fff;font-size: 14px;}
+/* 高级搜索 */
+#search .search .pro-search{text-indent: 15px;line-height: 40px;color:red;}
+/* 关键字 */
+#search .search .keys a{margin-right: 20px;color:#999;font:12px/28px "";}
+#search .search .keys a:hover{color:red;text-decoration:none;}
+
+/* 信息板 */
+#search .info-box{width: 140px;height: 40px;margin-top: 26px;margin-right: 26px;font-size: 14px;text-align: center;position: relative;overflow: hidden;line-height: 40px;}
+#search .info-box div{position: absolute;top: 0;width: 100%;height: 100%;}
+#search .info-box div a{color: #000;text-decoration: none;}
+#search .info-box div:first-child a{color: #e00;}

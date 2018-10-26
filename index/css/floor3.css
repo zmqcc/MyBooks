@@ -1,0 +1,11 @@
+/* 三楼 */
+#floor-3 ul li{flex: 1;height:200px;border-left:1px solid #e6e6e6;border-top:3px solid #e6e6e6;border-bottom:1px solid #e6e6e6;padding:12px;position: relative;}
+#floor-3 ul li:last-child{border-right:1px solid #e6e6e6;}
+#floor-3 ul li:hover{border-top-color: #e00;}
+#floor-3 ul li a{display: block;}
+#floor-3 ul li a:hover{text-decoration: none;}
+#floor-3 ul li h6{line-height: 26px;font-size: 14px;white-space: nowrap;overflow: hidden;width: 214px;}
+#floor-3 ul li p{text-decoration: line-through;color:#999;}
+#floor-3 ul li div{position: absolute;right: 4px;bottom: 6px;transition: .4s linear all;}
+#floor-3 ul li div:hover{transition: .3s linear all; right: 10px;}
+#floor-3 ul li img{max-height: 158px;max-width: 158px;}

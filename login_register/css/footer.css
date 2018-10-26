@@ -1,0 +1,10 @@
+#footer a:hover,#footer-bar a:hover{color: #e00;text-decoration: underline;}
+/* 底部 */
+#footer{text-align: center;margin-top: 46px;}
+#footer span{margin: 0 10px;}
+
+/* 底标 */
+#footer-bar{margin: 20px auto 30px;padding: 0 60px;box-sizing: border-box;}
+#footer-bar div.float-left a img{height: 44px;}
+#footer-bar div.float-right p{line-height: 22px;}
+#footer-bar div.float-right p>*{margin-right: 10px;}

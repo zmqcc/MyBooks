@@ -1,0 +1,13 @@
+/* 二楼 */
+/* 标题 */
+/* 书 */
+#floor-2 ul li{width: 286px;height: 298px;border: 1px solid #e6e6e6;background: #edf8ff;}
+#floor-2 ul li a{display: block;}
+#floor-2 ul li a img{display: block;height: 190px;width: 100%;}
+#floor-2 ul li a:nth-of-type(2){padding:0 14px;height:66px;line-height: 22px;color:#333;overflow: hidden;margin-top: 8px;}
+#floor-2 ul li a:nth-of-type(2):hover{color:#e00;text-decoration: none;}
+#floor-2 ul li p{line-height: 24px;padding: 0 14px;margin-top: 4px;}
+#floor-2 ul li p span{color:#e00;font-size: 14px;}
+#floor-2 ul li p span i{font-size: 20px;}
+#floor-2 ul li p del{font-size: 12px;color:#999;margin-left: 12px;text-decoration: line-through;}
+#floor-2 ul li p s{display: block;width: 40px; line-height: 16px;background: #5bd7ff;border-radius: 5px;margin-top: 5px;text-align: center;color:#fff;}

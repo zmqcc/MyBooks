@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>商品详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../goodlist/sass/floor1.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/list.css" />
+</head>
+<body>
+    <section id="ad">
+        <a href="../hot/hot.html" class="ad layout w1200"><img src="../goodlist/images/ad.jpg" alt="" class="w1200"></a>
+    </section>
+
+    <section id="loading">
+        <img src="images/loading.gif" alt="" srcset="">
+    </section>
+
+    <!-- 顶栏 -->
+    <header id="top-bar">
+        <div class="layout w1200 clear">
+            <!-- 左 -->
+            <div class="top-bar-l float-left">
+                <b>欢迎光临我的图书网&nbsp;请</b>
+                <a href="../login_register/login.html" class="login">登录</a>
+                <span>|</span>
+                <a href="../login_register/register.html" class="regist">注册</a>
+            </div>
+            <!-- 右 -->
+            <div class="top-bar-r float-right">
+                <ul class="clear">
+                    <li class="float-left"><a href="#">购物车</a><i>0</i></li>
+                    <li class="float-left"><a href="#">我的订单</a></li>
+                    <li class="float-left">
+                        <a>我的账户</a>
+                        <ol>
+                            <li>
+                                <a>我的收藏夹</a>
+                                <a>账户余额</a>
+                            </li>   
+                            <li>
+                                <a>我的优惠券</a>
+                                <a>我的积分</a>
+                            </li>
+                            <li>
+                                <a>收货地址</a>
+                                <a>我的书评</a>
+                            </li>
+                            <li>
+                                <a>我的消息</a>
+                                <a>积分换券</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="float-left"><a href="#">帮助中心</a></li>
+                    <li class="float-left">
+                        <a href="#">手机我图</a>
+                        <ol>
+                            <li>
+                                <img src="../index/images/weiboerweima.jpg" alt="">
+                                <div>
+                                    <h6>扫一扫</h6>
+                                    <p>关注中图网<br>官方微博</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../index/images/weixinerweima.jpg" alt="">
+                                <div>
+                                    <h6>扫一扫</h6>
+                                    <p>关注中图网<br>微信公众号</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../index/images/phoneerweima.jpg" alt="">
+                                <div>
+                                    <h6>手机中图</h6>
+                                    <p>进入中图网<br>手机触屏版</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- 搜索栏 -->
+    <div id="search" class="w1200 clear layout">
+        <!-- logo -->
+        <div class="logo float-left">
+            <h1>我的图书网</h1>
+            <a href="../index.html"></a>
+        </div>
+        <!-- 搜索框 -->
+        <div class="search float-left">
+            <div class="clear">
+                <div class="search-bar float-left">
+                    <input type="text" name="" class=" float-left" value="嗜好的极致:癖理由" />
+                    <span class="float-left">搜索全部</span>
+                    <!-- 下拉框 -->
+                    <ol class="dorp-up">
+                        <li class="on">搜索全部</li>
+                        <li>书名</li>
+                        <li>作者</li>
+                        <li>出版社</li>
+                        <li>ISBN</li>
+                    </ol>
+                    <input type="button" value="搜索" class=" float-left" />
+                </div>
+                <!-- 高级搜索 -->
+                <a href="#" class="pro-search float-left">高级搜索</a>
+            </div>
+            <!-- 关键字 -->
+            <p class="keys">
+                <a href="#">中国文库</a>
+                <a href="#">春树的诗</a>
+                <a href="#">假如真有时光机</a>
+                <a href="#">汉语词汇与华夏文化</a>
+            </p>
+        </div>
+        <!-- 信息板 -->
+        <div class="info-box float-right">
+            <div><a href="#">新版注册登陆上线</a></div>
+            <div><a href="#">暂停开具订单发票</a></div>
+        </div>
+    </div>
+    
+    <!-- 导航栏 -->
+    <nav id="book-nav">
+        <div class="w1200 layout clear">
+            <a href="../goodlist/goodlist.html" class="float-left book-class">图书分类</a>
+            <ul class="float-left">
+                <li class="float-left"><a href="../index.html">首页</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">淘书团</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">畅销榜</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">新上架</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">9块9包邮</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">出版社浏览</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">闲情雅趣</a></li>
+                <li class="float-left"><a href="../goodlist/goodlist.html">批发</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="w1200 layout clear">
+        <section id="floor-1" class="clear">
+            <!-- 分类框 -->
+            <aside class="book-class float-left">
+                <ul>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">文学</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">小说</a>
+                            <a href="#">青春文学</a>
+                            <a href="#">中国散文</a>
+                            <a href="#">外国散文</a>
+                            <a href="#">悬疑推理</a>
+                            <a href="#">文学理论</a>
+                            <a href="#">文集</a>
+                            <a href="#">世界名著</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">社科</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">历史</a>
+                            <a href="#">哲学/宗教</a>
+                            <a href="#">社会科学</a>
+                            <a href="#">政治军事</a>
+                            <a href="#">传记</a>
+                            <a href="#">文化</a>
+                            <a href="#">古籍</a>
+                            <a href="#">管理</a>
+                            <a href="#">经济</a>
+                            <a href="#">成功励志</a>
+                            <a href="#">法律</a>
+                            <a href="#">语言文学</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">少儿</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">中国儿童文学</a>
+                            <a href="#">外国儿童文学</a>
+                            <a href="#">科普读物</a>
+                            <a href="#">绘本</a>
+                            <a href="#">动漫/卡通</a>
+                            <a href="#">幼儿启蒙</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">艺术</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">绘画</a>
+                            <a href="#">书法篆刻</a>
+                            <a href="#">艺术理论</a>
+                            <a href="#">摄影</a>
+                            <a href="#">音乐</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">生活</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">美食</a>
+                            <a href="#">保健/心理健康</a>
+                            <a href="#">旅游</a>
+                            <a href="#">家庭教育</a>
+                            <a href="#">家居休闲</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="clear">
+                            <a href="#" class="float-left">文教</a>
+                            <span class="float-right">&gt;</span>
+                        </h3>
+                        <p>
+                            <a href="#">中小学教辅</a>
+                            <a href="#">外语</a>
+                            <a href="#">教材</a>
+                            <a href="#">医学</a>
+                            <a href="#">计算机</a>
+                            <a href="#">自然科学</a>
+                        </p>
+                    </li>
+                    <li class="clear">
+                        <a href="#" class="float-right">全部商品分类&gt;&gt;</a>
+                    </li>
+                </ul>
+            </aside>
+
+            <div class="second float-right">
+                <ul>
+                    <li>
+                        <h3><a href="#">小说</a></h3>
+                        <p>
+                            <a href="#">外国小说</a>
+                            <span>|</span>
+                            <a href="#">中国当代小说</a>
+                            <span>|</span>
+                            <a href="#">中国古典小说</a>
+                            <span>|</span>
+                            <a href="#">中国近现代小说</a>
+                            <span>|</span>
+                            <a href="#">悬疑推理</a>
+                            <span>|</span>
+                            <a href="#">科幻小说</a>
+                            <span>|</span>
+                            <a href="#">世界名著</a>
+                            <span>|</span>
+                            <a href="#">四大名著</a>
+                            <span>|</span>
+                            <a href="#">作品集</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">文学</a></h3>
+                        <p>
+                            <a href="#">外国诗歌</a>
+                            <span>|</span>
+                            <a href="#">中国古诗词</a>
+                            <span>|</span>
+                            <a href="#">中国现当代诗歌</a>
+                            <span>|</span>
+                            <a href="#">外国散文</a>
+                            <span>|</span>
+                            <a href="#">中国现当代散文</a>
+                            <span>|</span>
+                            <a href="#">中国古代散文</a>
+                            <span>|</span>
+                            <a href="#">文学理论</a>
+                            <span>|</span>
+                            <a href="#">文集</a>
+                            <span>|</span>
+                            <a href="#">戏剧</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">青春文学</a></h3>
+                        <p>
+                            <a href="#">玄幻/科幻</a>
+                            <span>|</span>
+                            <a href="#">悬疑/惊悚</a>
+                            <span>|</span>
+                            <a href="#">叛逆/成长</a>
+                            <span>|</span>
+                            <a href="#">爆笑/无厘头</a>
+                            <span>|</span>
+                            <a href="#">校园</a>
+                            <span>|</span>
+                            <a href="#">港台青春文学</a>
+                            <span>|</span>
+                            <a href="#">外国青春文学</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">历史</a></h3>
+                        <p>
+                            <a href="#">中国史</a>
+                            <span>|</span>
+                            <a href="#">世界史</a>
+                            <span>|</span>
+                            <a href="#">地方史志</a>
+                            <span>|</span>
+                            <a href="#">历史知识读物</a>
+                            <span>|</span>
+                            <a href="#">史料典籍</a>
+                            <span>|</span>
+                            <a href="#">史学理论</a>
+                            <span>|</span>
+                            <a href="#">考古文物</a>
+                            <span>|</span>
+                            <a href="#">民族史志</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">政治/哲学</a></h3>
+                        <p>
+                            <a href="#">政治</a>
+                            <span>|</span>
+                            <a href="#">军事</a>
+                            <span>|</span>
+                            <a href="#">中国政治</a>
+                            <span>|</span>
+                            <a href="#">国际政治</a>
+                            <span>|</span>
+                            <a href="#">外交/国际关系</a>
+                            <span>|</span>
+                            <a href="#">哲学</a>
+                            <span>|</span>
+                            <a href="#">宗教</a>
+                            <span>|</span>
+                            <a href="#">美学</a>
+                            <span>|</span>
+                            <a href="#">哲学知识读物</a>
+                            <span>|</span>
+                            <a href="#">中国古代哲学</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">传记</a></h3>
+                        <p>
+                            <a href="#">历代帝王</a>
+                            <span>|</span>
+                            <a href="#">历史人物</a>
+                            <span>|</span>
+                            <a href="#">科学家</a>
+                            <span>|</span>
+                            <a href="#">体育明星</a>
+                            <span>|</span>
+                            <a href="#">文学家</a>
+                            <span>|</span>
+                            <a href="#">学者</a>
+                            <span>|</span>
+                            <a href="#">艺术家</a>
+                            <span>|</span>
+                            <a href="#">文娱明星</a>
+                            <span>|</span>
+                            <a href="#">政治人物</a>
+                            <span>|</span>
+                            <a href="#">自传</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">文化</a></h3>
+                        <p>
+                            <a href="#">世界文化</a>
+                            <span>|</span>
+                            <a href="#">中国文化</a>
+                            <span>|</span>
+                            <a href="#">中国民俗</a>
+                            <span>|</span>
+                            <a href="#">地域文化</a>
+                            <span>|</span>
+                            <a href="#">文化理论</a>
+                            <span>|</span>
+                            <a href="#">文化评述</a>
+                            <span>|</span>
+                            <a href="#">神秘现象</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">社会科学</a></h3>
+                        <p>
+                            <a href="#">心理学</a>
+                            <span>|</span>
+                            <a href="#">人类学</a>
+                            <span>|</span>
+                            <a href="#">教育</a>
+                            <span>|</span>
+                            <a href="#">社会学</a>
+                            <span>|</span>
+                            <a href="#">新闻传播出版</a>
+                            <span>|</span>
+                            <a href="#">语言文字</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">古籍</a></h3>
+                        <p>
+                            <a href="#">古籍整理</a>
+                            <span>|</span>
+                            <a href="#">经部</a>
+                            <span>|</span>
+                            <a href="#">史类</a>
+                            <span>|</span>
+                            <a href="#">子部</a>
+                            <span>|</span>
+                            <a href="#">集部</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">经济/管理</a></h3>
+                        <p>
+                            <a href="#">经济理论</a>
+                            <span>|</span>
+                            <a href="#">中国经济</a>
+                            <span>|</span>
+                            <a href="#">国际经济</a>
+                            <span>|</span>
+                            <a href="#">经济通俗读物</a>
+                            <span>|</span>
+                            <a href="#">保险</a>
+                            <span>|</span>
+                            <a href="#">会计</a>
+                            <span>|</span>
+                            <a href="#">金融投资</a>
+                            <span>|</span>
+                            <a href="#">市场营销</a>
+                            <span>|</span>
+                            <a href="#">管理学</a>
+                            <span>|</span>
+                            <a href="#">电子商务</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">成功励志</a></h3>
+                        <p>
+                            <a href="#">成功激励</a>
+                            <span>|</span>
+                            <a href="#">口才演讲</a>
+                            <span>|</span>
+                            <a href="#">名人励志</a>
+                            <span>|</span>
+                            <a href="#">人际交往</a>
+                            <span>|</span>
+                            <a href="#">人生哲学</a>
+                            <span>|</span>
+                            <a href="#">心灵修养</a>
+                            <span>|</span>
+                            <a href="#">性格习惯</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">法律</a></h3>
+                        <p>
+                            <a href="#">法的理论</a>
+                            <span>|</span>
+                            <a href="#">法律法规</a>
+                            <span>|</span>
+                            <a href="#">国际法</a>
+                            <span>|</span>
+                            <a href="#">经济法</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">儿童文学</a></h3>
+                        <p>
+                            <a href="#">中国儿童文学</a>
+                            <span>|</span>
+                            <a href="#">外国儿童文学</a>
+                            <span>|</span>
+                            <a href="#">童话</a>
+                            <span>|</span>
+                            <a href="#">小说</a>
+                            <span>|</span>
+                            <a href="#">寓言传说</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">绘本</a></h3>
+                        <p>
+                            <a href="#">动漫/卡通</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">科普百科</a></h3>
+                        <p>
+                            <a href="#">科普</a>
+                            <span>|</span>
+                            <a href="#">百科</a>
+                            <span>|</span>
+                            <a href="#">历史读物</a>
+                            <span>|</span>
+                            <a href="#">生活常识</a>
+                            <span>|</span>
+                            <a href="#">益智游戏</a>
+                            <span>|</span>
+                            <a href="#">传统文化</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">其他</a></h3>
+                        <p>
+                            <a href="#">幼儿启蒙</a>
+                            <span>|</span>
+                            <a href="#">少儿英语</a>
+                            <span>|</span>
+                            <a href="#">励志/成长</a>
+                            <span>|</span>
+                            <a href="#">艺术课堂</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">年龄馆</a></h3>
+                        <p>
+                            <a href="#">0-2岁</a>
+                            <span>|</span>
+                            <a href="#">3-6岁</a>
+                            <span>|</span>
+                            <a href="#">7岁及以上</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">绘画</a></h3>
+                        <p>
+                            <a href="#">绘画理论</a>
+                            <span>|</span>
+                            <a href="#">国画</a>
+                            <span>|</span>
+                            <a href="#">油画</a>
+                            <span>|</span>
+                            <a href="#">素描速写</a>
+                            <span>|</span>
+                            <a href="#">水粉水彩</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">书法纂刻</a></h3>
+                        <p>
+                            <a href="#">碑帖</a>
+                            <span>|</span>
+                            <a href="#">技法教程</a>
+                            <span>|</span>
+                            <a href="#">书法理论</a>
+                            <span>|</span>
+                            <a href="#">硬笔书法</a>
+                            <span>|</span>
+                            <a href="#">字帖</a>
+                            <span>|</span>
+                            <a href="#">篆刻</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">摄影/设计</a></h3>
+                        <p>
+                            <a href="#">设计</a>
+                            <span>|</span>
+                            <a href="#">摄影后期</a>
+                            <span>|</span>
+                            <a href="#">摄影教程</a>
+                            <span>|</span>
+                            <a href="#">摄影理论</a>
+                            <span>|</span>
+                            <a href="#">摄影器材</a>
+                            <span>|</span>
+                            <a href="#">数码摄影</a>
+                            <span>|</span>
+                            <a href="#">作品集</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">舞台影视艺术</a></h3>
+                        <p>
+                            <a href="#">影视理论</a>
+                            <span>|</span>
+                            <a href="#">影视赏析</a>
+                            <span>|</span>
+                            <a href="#">影视制作</a>
+                            <span>|</span>
+                            <a href="#">舞台/戏曲艺术</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">音乐</a></h3>
+                        <p>
+                            <a href="#">钢琴</a>
+                            <span>|</span>
+                            <a href="#">吉它</a>
+                            <span>|</span>
+                            <a href="#">理论/欣赏</a>
+                            <span>|</span>
+                            <a href="#">声乐</a>
+                            <span>|</span>
+                            <a href="#">通俗音乐</a>
+                            <span>|</span>
+                            <a href="#">外国音乐</a>
+                            <span>|</span>
+                            <a href="#">中国民族音乐</a>
+                            <span>|</span>
+                            <a href="#">作曲/指挥</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">收藏鉴赏</a></h3>
+                        <p>
+                            <a href="#">宝石</a>
+                            <span>|</span>
+                            <a href="#">雕品</a>
+                            <span>|</span>
+                            <a href="#">古代家具</a>
+                            <span>|</span>
+                            <a href="#">钱币</a>
+                            <span>|</span>
+                            <a href="#">收藏百科</a>
+                            <span>|</span>
+                            <a href="#">收藏随笔</a>
+                            <span>|</span>
+                            <a href="#">书画</a>
+                            <span>|</span>
+                            <a href="#">陶瓷</a>
+                            <span>|</span>
+                            <a href="#">玉器</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">更多</a></h3>
+                        <p>
+                            <a href="#">艺术理论</a>
+                            <span>|</span>
+                            <a href="#">雕塑</a>
+                            <span>|</span>
+                            <a href="#">工艺美术</a>
+                            <span>|</span>
+                            <a href="#">建筑艺术</a>
+                            <span>|</span>
+                            <a href="#">民间艺术</a>
+                            <span>|</span>
+                            <a href="#">人体艺术</a>
+                            <span>|</span>
+                            <a href="#">艺术类考试</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">美食</a></h3>
+                        <p>
+                            <a href="#">饮食文化</a>
+                            <span>|</span>
+                            <a href="#">保健食谱</a>
+                            <span>|</span>
+                            <a href="#">家常食谱</a>
+                            <span>|</span>
+                            <a href="#">八大菜系</a>
+                            <span>|</span>
+                            <a href="#">餐饮指南</a>
+                            <span>|</span>
+                            <a href="#">世界美食</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">保健/心理健康</a></h3>
+                        <p>
+                            <a href="#">健康百科</a>
+                            <span>|</span>
+                            <a href="#">健身</a>
+                            <span>|</span>
+                            <a href="#">心理健康</a>
+                            <span>|</span>
+                            <a href="#">中老年</a>
+                            <span>|</span>
+                            <a href="#">中医保健</a>
+                            <span>|</span>
+                            <a href="#">常见病</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">旅游</a></h3>
+                        <p>
+                            <a href="#">旅游随笔</a>
+                            <span>|</span>
+                            <a href="#">旅游攻略</a>
+                            <span>|</span>
+                            <a href="#">旅游画册</a>
+                            <span>|</span>
+                            <a href="#">城市自助游</a>
+                            <span>|</span>
+                            <a href="#">国内自助游</a>
+                            <span>|</span>
+                            <a href="#">国外自助游</a>
+                            <span>|</span>
+                            <a href="#">地图地理</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">孕产育儿</a></h3>
+                        <p>
+                            <a href="#">孕产百科</a>
+                            <span>|</span>
+                            <a href="#">育儿百科</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">更多</a></h3>
+                        <p>
+                            <a href="#">美丽妆扮</a>
+                            <span>|</span>
+                            <a href="#">两性关系</a>
+                            <span>|</span>
+                            <a href="#">家居休闲</a>
+                            <span>|</span>
+                            <a href="#">个人理财</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3><a href="#">中小学教辅</a></h3>
+                        <p>
+                            <a href="#">语文阅读</a>
+                            <span>|</span>
+                            <a href="#">拓展读物</a>
+                            <span>|</span>
+                            <a href="#">高考</a>
+                            <span>|</span>
+                            <a href="#">初中通用</a>
+                            <span>|</span>
+                            <a href="#">高中通用</a>
+                            <span>|</span>
+                            <a href="#">工具书</a>
+                            <span>|</span>
+                            <a href="#">教师用书</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">外语</a></h3>
+                        <p>
+                            <a href="#">英语读物</a>
+                            <span>|</span>
+                            <a href="#">职业英语</a>
+                            <span>|</span>
+                            <a href="#">英语考试</a>
+                            <span>|</span>
+                            <a href="#">大学英语</a>
+                            <span>|</span>
+                            <a href="#">少儿英语</a>
+                            <span>|</span>
+                            <a href="#">更多</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">教材</a></h3>
+                        <p>
+                            <a href="#">研究生/本科/专科教材 </a>
+                            <span>|</span>
+                            <a href="#">职业技术培训</a>
+                            <span>|</span>
+                            <a href="#">中小学教材</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">计算机</a></h3>
+                        <p>
+                            <a href="#">操作系统/系统开发</a>
+                            <span>|</span>
+                            <a href="#">数据库</a>
+                            <span>|</span>
+                            <a href="#">信息安全</a>
+                            <span>|</span>
+                            <a href="#">程序设计</a>
+                            <span>|</span>
+                            <a href="#">电脑杂志</a>
+                            <span>|</span>
+                            <a href="#">计算机教材</a>
+                            <span>|</span>
+                            <a href="#">计算机考试认证</a>
+                            <span>|</span>
+                            <a href="#">计算机理论</a>
+                            <span>|</span>
+                            <a href="#">计算机体系结构</a>
+                            <span>|</span>
+                            <a href="#">家庭与办公室用书</a>
+                            <span>|</span>
+                            <a href="#">企业软件开发与实施</a>
+                            <span>|</span>
+                            <a href="#">人工智能</a>
+                            <span>|</span>
+                            <a href="#">软件工程/开发项目管理</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3><a href="#">更多</a></h3>
+                        <p>
+                            <a href="#">考试</a>
+                            <span>|</span>
+                            <a href="#">家庭教育</a>
+                            <span>|</span>
+                            <a href="#">自然科学</a>
+                            <span>|</span>
+                            <a href="#">科普读物</a>
+                            <span>|</span>
+                            <a href="#">医学</a>
+                            <span>|</span>
+                            <a href="#">农林业</a>
+                            <span>|</span>
+                            <a href="#">工业技术</a>
+                            <span>|</span>
+                            <a href="#">建筑</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="list">
+            <p class="pageLinks">
+                <a href="../index.html">我的图书网</a>
+                <span>&gt;</span>
+                <a href="../goodlist/goodlist.html">新上架图书精选</a>
+                <span>&gt;</span>
+                <a href="details.html">我的购物车</a>
+            </p>
+
+            <!-- 购物车 -->
+            <div class="car clear">
+                <h3><span>购物车</span></h3>
+                <!-- 表头 -->
+                <ol class="listHead">
+                    <li><input type="checkbox" class="allChecked" checked="checked">全选</li>
+                    <li>封面</li>
+                    <li>图书名</li>
+                    <li>定价</li>
+                    <li>我图价</li>
+                    <li>数量操作</li>
+                    <li>小计</li>
+                    <li>操作</li>
+                </ol>
+                <!-- 表身 -->
+                <div class="listBody">
+                    <!-- <ul>
+                        <li><input type="checkbox">选择</li>
+                        <li><img src="../details/images/small1.jpg" alt="1"></li>
+                        <li><a href="../details/details.html">人间失格</a></li>
+                        <li><del>￥25</del></li>
+                        <li>￥10.8</li>
+                        <li class="count">
+                            <b>-</b>
+                            <input type="text" value="1">
+                            <s>+</s>
+                        </li>
+                        <li>￥10.8</li>
+                        <li>
+                            <em>删除</em>
+                            <u>移入收藏</u>
+                        </li>
+                    </ul> -->
+                </div>
+                <!-- 表足 -->
+                <ul class="listFoot">
+                    <li><input type="checkbox" class="allChecked" checked="checked">全选</li>
+                    <li><del>删除选中商品</del></li>
+                    <li><a href="../goodlist/goodlist.html">继续购物</a></li>
+                    <li></li>
+                    <li></li>
+                    <li>已选<i>0</i>件</li>
+                    <li>总价<strong>￥0.0</strong></li>
+                    <li>立即结算</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部 -->
+    <footer id="footer">
+        <!-- 上 -->
+        <section class="f-top w1200 layout clear">
+            <!-- 左 -->
+            <div class="float-left">
+                <dl>
+                    <dt>新手上路</dt>
+                    <dd><a href="#">购物流程演示</a></dd>
+                    <dd><a href="#">注册用户 更改注册信息</a></dd>
+                    <dd><a href="#">购物常见问题</a></dd>
+                    <dd><a href="#">关于特价书的常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>购买问题</dt>
+                    <dd><a href="#">订单跟踪</a></dd>
+                    <dd><a href="#">付款方式</a></dd>
+                    <dd><a href="#">账户余额</a></dd>
+                    <dd><a href="#">申请提现</a></dd>
+                    <dd><a href="#">配送方式及费用、范围</a></dd>
+                    <dd><a href="#">集团购买</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="#">退换货流程</a></dd>
+                    <dd><a href="#">投诉与建议</a></dd>
+                    <dd><a href="#" style="color: #e00;">在线客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>特色服务</dt>
+                    <dd><a href="#">会员等级与积分</a></dd>
+                    <dd><a href="#">中图书馨卡</a></dd>
+                    <dd><a href="#">邮件订阅</a></dd>
+                    <dd><a href="#" style="color: #e00;">邀请好友购买返5元</a></dd>
+                </dl>
+                <dl style="width: 134px;border-right: 1px solid #dadada;">
+                    <dt>其他信息</dt>
+                    <dd><a href="#">本站简介</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">招聘英才</a></dd>
+                    <dd><a href="#">网站联盟</a></dd>
+                    <dd><a href="#">友情链接</a></dd>
+                </dl>
+            </div>
+            <!-- 右 -->
+            <aside class="float-right">
+                <dl>
+                    <dt>微信公众号</dt>
+                    <dd><img src="../index/images/weixinerweima.jpg" alt=""></dd>
+                </dl>
+                <dl>
+                    <dt>中图网微博</dt>
+                    <dd><img src="../index/images/weiboerweima.jpg" alt=""></dd>
+                </dl>
+                <dl>
+                    <dt>手机中图</dt>
+                    <dd><img src="../index/images/phoneerweima.jpg" alt=""></dd>
+                </dl>
+            </aside>
+        </section>
+        <!-- 中 -->
+        <section class="f-mid w1200 layout">
+            <dl>
+                <dt>友情链接：</dt>
+                <dd><a href="#">荣宝斋</a></dd>
+                <dd><a href="#">国家公务员考试网</a></dd>
+                <dd><a href="#">孔夫子图书网</a></dd>
+                <dd><a href="#">互动百科</a></dd>
+                <dd><a href="#">互动吧</a></dd>
+                <dd><a href="#">365小说网</a></dd>
+                <dd><a href="#">琅琅比价网</a></dd>
+                <dd><a href="#">邮票</a></dd>
+                <dd><a href="#">汉语大辞典</a></dd>
+                <dd><a href="#">北京律师</a></dd>
+                <dd><a href="#">事业单位招聘考试网</a></dd>
+                <dd><a href="#">考研网</a></dd>
+            </dl>
+        </section>
+        <section class="f-bottom w1200 layout">
+            <img src="../index/images/f-bottom.jpg" alt="" srcset="">
+        </section>
+    </footer>
+
+    <!-- 底标 -->
+    <section id="footer-bar" class="w1200 clear">
+        <div class="float-left">
+            <a href=""><img src="../index/images/chengxin.jpg" alt=""></a>
+            <a href=""><img src="../index/images/ectrust.gif" alt=""></a>
+        </div>
+        <div class="float-right">
+            <p>
+                <a href="#">经营许可证编号：京ICP备09013606号-3</a>
+                <a href="#">京信市监发[2002]122号</a>
+                <span>海淀公安分局备案编号：1101083394</span>
+            </p>
+            <p><a href="#">营业执照</a><a href="#">出版物经营许可证</a></p>
+        </div>
+    </section>
+</body>
+<script src="../libs/require.js" data-main="js/shopCar"></script>
+</html>

@@ -1,0 +1,7 @@
+/* 导航栏 */
+#book-nav{border-bottom: 2px solid #e00;}
+#book-nav a{display: block;font-size: 18px;line-height: 42px;}
+#book-nav a:hover{text-decoration: none;}
+#book-nav .book-class{font-size:16px;color:#fff;background: #e00;width: 200px;text-align: center;}
+#book-nav ul li a{padding: 0 28px;}
+#book-nav ul li.te a{color: #e00;font-weight: 600;}

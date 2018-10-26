@@ -1,0 +1,115 @@
+main{position: relative;};
+
+// 一楼
+#floor-1{
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 100;
+
+    // 分类框
+    .book-class{
+        width: 200px;
+
+        ul{
+            border: 1px solid #e00;
+            border-top: 0;
+
+            li{
+                padding: 8px;
+                border:2px solid #fff;
+                border-right: 0;
+                border-left-width: 1px;
+
+                // li子元素样式
+                h3{
+                    font:16px/24px "";
+                    color: #e00;
+                    margin-bottom: 8px;
+
+                    a{color: #e00;};
+                };
+
+                p{
+                    border-bottom: 1px solid #e00;
+
+                    a{
+                        line-height:24px;
+                        margin-right: 12px;
+                        display: inline-block;
+                    };
+                };
+            };
+
+            li.te{
+                border-color: #e00;
+                position: relative;
+
+                p{border-color: #fff;}
+            };
+
+            li.te:after{
+                content: "";
+                position: absolute;
+                height: 100%;
+                width: 3px;
+                background: #fff;
+                right: -2px;
+                top: 0;
+                z-index: 10;
+            };
+
+            li:last-child{padding:1px 10px;};
+        };
+    };
+
+    // 二级菜单
+    .second{
+        position: absolute;
+        left: 200px;
+        z-index: 9;
+
+        ul{
+            position: absolute;
+            background: #fff;
+            display: none;
+            border: 2px solid #e00;
+            left: -1px;width: 710px;
+            padding:10px 32px 10px 18px;
+
+            li{
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #f2f2f2;
+                padding: 10px 0;
+                line-height: 24px;
+
+                p{width: 600px;};
+                
+                a{
+                    font-size: 12px;
+                    text-decoration: none;
+                    white-space: nowrap;
+                };
+
+                h3 a{color: #e00;};
+
+                p a{margin: 0 16px;};
+            };
+
+            li:last-child{border: 0;}
+        };
+
+        ul.te{display: block;};
+
+        ul:nth-child(3){top:210px;};
+
+        ul:nth-child(4){top:210px;};
+
+        ul:nth-child(5){top:380px;};
+
+        ul:nth-child(6){top:376px;};
+    };
+};

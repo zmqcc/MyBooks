@@ -1,0 +1,11 @@
+@import url(../../libs/public.css);
+@import url(../../index/css/topBar.css);
+@import url(../../index/css/search.css);
+@import url(../../index/css/nav.css);
+@import url(../../index/css/footer.css);
+@import url(../../index/css/footerBar.css);
+
+/* 页面宽度1200 */
+.w1200{width: 1200px;}
+/* a标签滑过颜色 */
+a:hover{color:red;text-decoration:underline;}

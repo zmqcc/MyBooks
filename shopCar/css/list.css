@@ -1,0 +1,35 @@
+#loading{position: fixed;width: 500px;height: 250px;left: 0;right: 0;top: 0;bottom: 0;margin: auto;z-index: 20;display: none;}
+
+#list{margin: 10px 0;}
+#list .pageLinks{line-height: 22px;margin-bottom: 6px;}
+/* 购物车 */
+#list .car{margin-top: 34px;}
+#list .car h3{font-size: 20px;color: #e00;padding-left: 6px;line-height: 34px;height: 34px;}
+#list .car h3 *{font-weight: 600;}
+#list .car h3 span{display: inline-block;padding: 0 4px;height: 30px;border-bottom: 3px solid #e00;}
+/* 表头 */
+#list .car .listHead{margin-top: 6px;border: 1px solid #eee;height: 38px;display: flex;}
+#list .car .listHead li{flex: 1;text-align: center;line-height: 38px;font-size: 18px;border-right: 1px solid #eee;}
+#list .car .listHead li:last-child{border-right: 0;}
+#list .car .listHead li input{margin-right: 20px;}
+/* 表身 */
+#list .car .listBody{margin: 10px 0;}
+#list .car .listBody ul{height: 120px;border: 1px solid #eee;display: flex;border-bottom: 0;background: #fffbf0;}
+#list .car .listBody ul:last-child{border-bottom: 1px solid #eee;}
+#list .car .listBody ul li{border-right: 1px solid #eee;flex: 1;padding: 10px 6px;text-align: center;line-height: 100px;font-size: 16px;overflow: hidden;}
+#list .car .listBody ul li:first-child input{margin-right: 20px;}
+#list .car .listBody ul li del{text-decoration: line-through;}
+#list .car .listBody ul li.count *{display: inline-block;width: 36px;height: 36px;border: 1px solid #eee;vertical-align: middle;line-height: 36px;cursor: pointer;}
+#list .car .listBody ul li.count input{text-align: center;cursor: text;}
+#list .car .listBody ul li:last-child{border-right: 0;}
+#list .car .listBody ul li:last-child *{display: block;cursor: pointer;width: 100px;margin: auto;}
+#list .car .listBody ul li:last-child *:hover{text-decoration: underline;}
+#list .car .listBody ul li img{max-height: 80px;max-width: 80px;}
+/* 表足 */
+#list .car .listFoot{height: 60px;background: #fafafa;line-height: 60px;display: flex;border: 1px solid #eee;text-align: center;font-size: 14px;justify-content: space-between;}
+#list .car .listFoot li{flex: 1;}
+#list .car .listFoot li i{color: #e00;margin: 0 4px;}
+#list .car .listFoot li strong{font-size: 20px;color: #e00;margin-left: 4px;}
+#list .car .listFoot li:first-child input{margin-right: 20px;}
+#list .car .listFoot li:nth-child(2) del:hover{cursor: pointer;text-decoration: underline;}
+#list .car .listFoot li:last-child{cursor: pointer;background: #e00;font-size: 22px;color: #fff;}

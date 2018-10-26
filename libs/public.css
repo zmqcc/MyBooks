@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input{margin:0;padding:0;border: 0;}
+body{font:12px "宋体"; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none}
+i,em,b,strong{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;}
+table{border-collapse:collapse;}
+.ind2{text-indent:2em;}
+h1{display:none;}
+input,textarea{outline:none; background:none;}/*禁止谷歌浏览器中输入时出现框*/
+textarea{resize:none;}/*禁止多行文本框被用户改变大小*/
+
+
+.layout{margin:0 auto;}/*页面居中*/
+
+.float-left{float: left;}
+.float-right{float:right;}
+
+
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";display:inline-block; vertical-align:middle; height:100%;}
+
+
+.over{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}/*单行文本省略号*/
+
+
+.center{top:0;right:0;bottom:0;left:0;margin:auto;}/*定位居中*/
+
+
+.clear:before{content:"";display:table;}/*清除margin-top向上传递*/
+.clear{zoom:1;}/*清除ie浮动*/
+.clear:after{content:"";clear:both;display:block;}/*清除浮动高度塌陷*/

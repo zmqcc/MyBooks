@@ -1,0 +1,8 @@
+@import url(../../libs/public.css);
+@import url(body.css);
+@import url(topBar.css);
+@import url(main.css);
+@import url(mainL.css);
+@import url(footer.css);
+
+.w1000{width: 1000px;}
